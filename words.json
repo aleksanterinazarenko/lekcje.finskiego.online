@@ -1,0 +1,5082 @@
+[
+    {
+        "English": "eye",
+        "Finnish": "silmä",
+        "Polish": "oko"
+    },
+    {
+        "English": "ear",
+        "Finnish": "korva",
+        "Polish": "ucho"
+    },
+    {
+        "English": "nose",
+        "Finnish": "nenä",
+        "Polish": "nos"
+    },
+    {
+        "English": "mouth",
+        "Finnish": "suu",
+        "Polish": "usta"
+    },
+    {
+        "English": "tooth",
+        "Finnish": "hammas",
+        "Polish": "ząb"
+    },
+    {
+        "English": "tongue",
+        "Finnish": "kieli",
+        "Polish": "język"
+    },
+    {
+        "English": "lip",
+        "Finnish": "huuli",
+        "Polish": "warga"
+    },
+    {
+        "English": "cheek",
+        "Finnish": "poski",
+        "Polish": "policzek"
+    },
+    {
+        "English": "face",
+        "Finnish": "naama; kasvot",
+        "Polish": "twarz"
+    },
+    {
+        "English": "forehead",
+        "Finnish": "otsa",
+        "Polish": "czoło"
+    },
+    {
+        "English": "hair",
+        "Finnish": "hius; tukka",
+        "Polish": "włos; włosy"
+    },
+    {
+        "English": "moustache",
+        "Finnish": "viikset",
+        "Polish": "wąsy"
+    },
+    {
+        "English": "beard",
+        "Finnish": "parta",
+        "Polish": "broda"
+    },
+    {
+        "English": "chin",
+        "Finnish": "leuka",
+        "Polish": "podbródek"
+    },
+    {
+        "English": "jaw",
+        "Finnish": "leukaluu",
+        "Polish": "żuchwa; szczęka; czeluść"
+    },
+    {
+        "English": "throat",
+        "Finnish": "kurkku",
+        "Polish": "gardło"
+    },
+    {
+        "English": "neck",
+        "Finnish": "kaula",
+        "Polish": "szyja"
+    },
+    {
+        "English": "nape",
+        "Finnish": "niska",
+        "Polish": "kark"
+    },
+    {
+        "English": "head",
+        "Finnish": "pää",
+        "Polish": "głowa"
+    },
+    {
+        "English": "back",
+        "Finnish": "selkä",
+        "Polish": "plecy; grzbiet"
+    },
+    {
+        "English": "belly",
+        "Finnish": "maha; vatsa",
+        "Polish": "brzuch"
+    },
+    {
+        "English": "navel",
+        "Finnish": "napa",
+        "Polish": "pępek"
+    },
+    {
+        "English": "bosom",
+        "Finnish": "rinta",
+        "Polish": "biust"
+    },
+    {
+        "English": "breast",
+        "Finnish": "rinta",
+        "Polish": "pierś"
+    },
+    {
+        "English": "shoulder",
+        "Finnish": "olka; hartia; olkapää",
+        "Polish": "bark; ramię"
+    },
+    {
+        "English": "arm",
+        "Finnish": "käsivarsi",
+        "Polish": "ręka; ramię"
+    },
+    {
+        "English": "elbow",
+        "Finnish": "kyynärpää",
+        "Polish": "łokieć"
+    },
+    {
+        "English": "hand",
+        "Finnish": "käsi",
+        "Polish": "dłoń"
+    },
+    {
+        "English": "palm",
+        "Finnish": "kämmen",
+        "Polish": "dłoń"
+    },
+    {
+        "English": "finger",
+        "Finnish": "sormi",
+        "Polish": "palec"
+    },
+    {
+        "English": "fingernail",
+        "Finnish": "kynsi",
+        "Polish": "paznokieć"
+    },
+    {
+        "English": "nail",
+        "Finnish": "kynsi",
+        "Polish": "paznokieć"
+    },
+    {
+        "English": "toe",
+        "Finnish": "varvas",
+        "Polish": "palec"
+    },
+    {
+        "English": "foot",
+        "Finnish": "jalka",
+        "Polish": "stopa"
+    },
+    {
+        "English": "heel",
+        "Finnish": "kantapää",
+        "Polish": "pięta"
+    },
+    {
+        "English": "knee",
+        "Finnish": "polvi",
+        "Polish": "kolano"
+    },
+    {
+        "English": "thigh",
+        "Finnish": "reisi",
+        "Polish": "udo"
+    },
+    {
+        "English": "leg",
+        "Finnish": "jalka",
+        "Polish": "noga"
+    },
+    {
+        "English": "body",
+        "Finnish": "keho; ruumis",
+        "Polish": "ciało"
+    },
+    {
+        "English": "skin",
+        "Finnish": "iho",
+        "Polish": "skóra"
+    },
+    {
+        "English": "blood",
+        "Finnish": "veri",
+        "Polish": "krew"
+    },
+    {
+        "English": "vein",
+        "Finnish": "suoni",
+        "Polish": "żyła"
+    },
+    {
+        "English": "sinew",
+        "Finnish": "jänne",
+        "Polish": "ścięgno"
+    },
+    {
+        "English": "bone",
+        "Finnish": "luu",
+        "Polish": "kość"
+    },
+    {
+        "English": "brain",
+        "Finnish": "aivot",
+        "Polish": "mózg"
+    },
+    {
+        "English": "heart",
+        "Finnish": "sydän",
+        "Polish": "serce"
+    },
+    {
+        "English": "stomach",
+        "Finnish": "maha; vatsa",
+        "Polish": "żołądek"
+    },
+    {
+        "English": "liver",
+        "Finnish": "maksa",
+        "Polish": "wątroba"
+    },
+    {
+        "English": "breath",
+        "Finnish": "henki; hengitys",
+        "Polish": "dech; oddech"
+    },
+    {
+        "English": "hunger",
+        "Finnish": "nälkä",
+        "Polish": "głód"
+    },
+    {
+        "English": "tear",
+        "Finnish": "kyynel",
+        "Polish": "łza"
+    },
+    {
+        "English": "flavour",
+        "Finnish": "maku",
+        "Polish": "smak"
+    },
+    {
+        "English": "odour",
+        "Finnish": "haju",
+        "Polish": "woń; zapach"
+    },
+    {
+        "English": "sleep",
+        "Finnish": "uni",
+        "Polish": "sen"
+    },
+    {
+        "English": "dream",
+        "Finnish": "uni",
+        "Polish": "sen"
+    },
+    {
+        "English": "sky",
+        "Finnish": "taivas",
+        "Polish": "niebo"
+    },
+    {
+        "English": "sun",
+        "Finnish": "aurinko",
+        "Polish": "słońce"
+    },
+    {
+        "English": "moon",
+        "Finnish": "kuu",
+        "Polish": "księżyc"
+    },
+    {
+        "English": "star",
+        "Finnish": "tähti",
+        "Polish": "gwiazda"
+    },
+    {
+        "English": "air",
+        "Finnish": "ilma",
+        "Polish": "powietrze"
+    },
+    {
+        "English": "wind",
+        "Finnish": "tuuli",
+        "Polish": "wiatr"
+    },
+    {
+        "English": "wave",
+        "Finnish": "aalto",
+        "Polish": "fala"
+    },
+    {
+        "English": "water",
+        "Finnish": "vesi",
+        "Polish": "woda"
+    },
+    {
+        "English": "stone",
+        "Finnish": "kivi",
+        "Polish": "kamień"
+    },
+    {
+        "English": "ground",
+        "Finnish": "maa; maaperä",
+        "Polish": "grunt"
+    },
+    {
+        "English": "earth",
+        "Finnish": "maa",
+        "Polish": "ziemia"
+    },
+    {
+        "English": "dust",
+        "Finnish": "pöly",
+        "Polish": "pył; kurz"
+    },
+    {
+        "English": "smoke",
+        "Finnish": "savu",
+        "Polish": "dym"
+    },
+    {
+        "English": "spark",
+        "Finnish": "kipinä",
+        "Polish": "iskra"
+    },
+    {
+        "English": "fire",
+        "Finnish": "tuli",
+        "Polish": "ogień"
+    },
+    {
+        "English": "light",
+        "Finnish": "valo",
+        "Polish": "światło"
+    },
+    {
+        "English": "shadow",
+        "Finnish": "varjo",
+        "Polish": "cień"
+    },
+    {
+        "English": "weather",
+        "Finnish": "sää",
+        "Polish": "pogoda"
+    },
+    {
+        "English": "fog",
+        "Finnish": "sumu",
+        "Polish": "mgła"
+    },
+    {
+        "English": "cloud",
+        "Finnish": "pilvi",
+        "Polish": "obłok; chmura"
+    },
+    {
+        "English": "rain",
+        "Finnish": "sade",
+        "Polish": "deszcz"
+    },
+    {
+        "English": "snow",
+        "Finnish": "lumi",
+        "Polish": "śnieg"
+    },
+    {
+        "English": "ice",
+        "Finnish": "jää",
+        "Polish": "lód"
+    },
+    {
+        "English": "frost",
+        "Finnish": "halla; pakkanen",
+        "Polish": "mróz"
+    },
+    {
+        "English": "chill",
+        "Finnish": "vilu; kylmyys",
+        "Polish": "chłód"
+    },
+    {
+        "English": "heat",
+        "Finnish": "helle; kuumuus",
+        "Polish": "gorąco"
+    },
+    {
+        "English": "hoarfrost",
+        "Finnish": "huurre",
+        "Polish": "szron"
+    },
+    {
+        "English": "rainbow",
+        "Finnish": "sateenkaari",
+        "Polish": "tęcza"
+    },
+    {
+        "English": "thunder",
+        "Finnish": "jyrinä",
+        "Polish": "grzmot"
+    },
+    {
+        "English": "current",
+        "Finnish": "virtaus",
+        "Polish": "nurt"
+    },
+    {
+        "English": "drop",
+        "Finnish": "tippa; pisara",
+        "Polish": "kropla"
+    },
+    {
+        "English": "foam",
+        "Finnish": "vaahto",
+        "Polish": "piana"
+    },
+    {
+        "English": "dirt",
+        "Finnish": "loka",
+        "Polish": "brud"
+    },
+    {
+        "English": "lake",
+        "Finnish": "järvi",
+        "Polish": "jezioro"
+    },
+    {
+        "English": "swamp",
+        "Finnish": "suo",
+        "Polish": "bagno"
+    },
+    {
+        "English": "moor",
+        "Finnish": "räme",
+        "Polish": "bagno"
+    },
+    {
+        "English": "meadow",
+        "Finnish": "niitty",
+        "Polish": "łąka"
+    },
+    {
+        "English": "forest",
+        "Finnish": "metsä",
+        "Polish": "las"
+    },
+    {
+        "English": "hill",
+        "Finnish": "mäki; kumpu; kukkula",
+        "Polish": "pagórek"
+    },
+    {
+        "English": "elevation",
+        "Finnish": "mäki; kumpare",
+        "Polish": "wzgórze"
+    },
+    {
+        "English": "mountain",
+        "Finnish": "mäki; vuori",
+        "Polish": "góra"
+    },
+    {
+        "English": "summit",
+        "Finnish": "laki; huippu",
+        "Polish": "szczyt; wierzchołek"
+    },
+    {
+        "English": "cave",
+        "Finnish": "luola",
+        "Polish": "pieczara"
+    },
+    {
+        "English": "slope",
+        "Finnish": "rinne",
+        "Polish": "stok; zbocze"
+    },
+    {
+        "English": "source",
+        "Finnish": "lähde",
+        "Polish": "zdrój; źródło"
+    },
+    {
+        "English": "brook",
+        "Finnish": "puro",
+        "Polish": "potok; strumień"
+    },
+    {
+        "English": "river",
+        "Finnish": "joki",
+        "Polish": "rzeka"
+    },
+    {
+        "English": "shore",
+        "Finnish": "ranta",
+        "Polish": "brzeg"
+    },
+    {
+        "English": "coast",
+        "Finnish": "rannikko",
+        "Polish": "wybrzeże"
+    },
+    {
+        "English": "land",
+        "Finnish": "manner",
+        "Polish": "ląd"
+    },
+    {
+        "English": "sea",
+        "Finnish": "meri",
+        "Polish": "morze"
+    },
+    {
+        "English": "cove, bay",
+        "Finnish": "lahti",
+        "Polish": "zatoka"
+    },
+    {
+        "English": "island",
+        "Finnish": "saari",
+        "Polish": "wyspa"
+    },
+    {
+        "English": "flower",
+        "Finnish": "kukka",
+        "Polish": "kwiat"
+    },
+    {
+        "English": "grass",
+        "Finnish": "ruoho",
+        "Polish": "trawa"
+    },
+    {
+        "English": "root",
+        "Finnish": "juuri",
+        "Polish": "korzeń"
+    },
+    {
+        "English": "tree",
+        "Finnish": "puu",
+        "Polish": "drzewo"
+    },
+    {
+        "English": "trunk",
+        "Finnish": "runko",
+        "Polish": "pień"
+    },
+    {
+        "English": "bark",
+        "Finnish": "kuori; parkki",
+        "Polish": "kora"
+    },
+    {
+        "English": "limb",
+        "Finnish": "oksa",
+        "Polish": "gałąź"
+    },
+    {
+        "English": "twig",
+        "Finnish": "haara",
+        "Polish": "gałąź"
+    },
+    {
+        "English": "leaf",
+        "Finnish": "lehti",
+        "Polish": "liść"
+    },
+    {
+        "English": "birch",
+        "Finnish": "koivu",
+        "Polish": "brzoza"
+    },
+    {
+        "English": "pine",
+        "Finnish": "mänty; petäjä",
+        "Polish": "sosna"
+    },
+    {
+        "English": "willow",
+        "Finnish": "paju",
+        "Polish": "wierzba"
+    },
+    {
+        "English": "fir",
+        "Finnish": "kuusi",
+        "Polish": "jodła"
+    },
+    {
+        "English": "horn",
+        "Finnish": "sarvi",
+        "Polish": "róg"
+    },
+    {
+        "English": "feather",
+        "Finnish": "sulka; höyhen",
+        "Polish": "pióro"
+    },
+    {
+        "English": "fur",
+        "Finnish": "talja",
+        "Polish": "futro"
+    },
+    {
+        "English": "wing",
+        "Finnish": "siipi",
+        "Polish": "skrzydło"
+    },
+    {
+        "English": "claw",
+        "Finnish": "kynsi",
+        "Polish": "szpon"
+    },
+    {
+        "English": "paw",
+        "Finnish": "kynsi",
+        "Polish": "pazur"
+    },
+    {
+        "English": "tail",
+        "Finnish": "häntä; pyrstö",
+        "Polish": "ogon"
+    },
+    {
+        "English": "egg",
+        "Finnish": "muna",
+        "Polish": "jajko"
+    },
+    {
+        "English": "nest",
+        "Finnish": "pesä",
+        "Polish": "gniazdo"
+    },
+    {
+        "English": "lair",
+        "Finnish": "pesä",
+        "Polish": "nora"
+    },
+    {
+        "English": "animal",
+        "Finnish": "eläin",
+        "Polish": "zwierzę"
+    },
+    {
+        "English": "flock",
+        "Finnish": "lauma",
+        "Polish": "stado; trzoda"
+    },
+    {
+        "English": "cow",
+        "Finnish": "lehmä",
+        "Polish": "krowa"
+    },
+    {
+        "English": "bull",
+        "Finnish": "sonni",
+        "Polish": "byk"
+    },
+    {
+        "English": "horse",
+        "Finnish": "hevonen",
+        "Polish": "koń"
+    },
+    {
+        "English": "sheep",
+        "Finnish": "lammas",
+        "Polish": "owca"
+    },
+    {
+        "English": "pig",
+        "Finnish": "sika",
+        "Polish": "świnia"
+    },
+    {
+        "English": "dog",
+        "Finnish": "koira",
+        "Polish": "pies"
+    },
+    {
+        "English": "cat",
+        "Finnish": "kissa",
+        "Polish": "kot; kotka"
+    },
+    {
+        "English": "bear",
+        "Finnish": "karhu",
+        "Polish": "niedźwiedź"
+    },
+    {
+        "English": "squirrel",
+        "Finnish": "orava",
+        "Polish": "wiewiórka"
+    },
+    {
+        "English": "elk",
+        "Finnish": "hirvi",
+        "Polish": "łoś"
+    },
+    {
+        "English": "fox",
+        "Finnish": "kettu",
+        "Polish": "lis"
+    },
+    {
+        "English": "hare",
+        "Finnish": "jänis",
+        "Polish": "zając"
+    },
+    {
+        "English": "mouse",
+        "Finnish": "hiiri",
+        "Polish": "mysz"
+    },
+    {
+        "English": "wolf",
+        "Finnish": "susi",
+        "Polish": "wilk"
+    },
+    {
+        "English": "bird",
+        "Finnish": "lintu",
+        "Polish": "ptak"
+    },
+    {
+        "English": "swarm",
+        "Finnish": "parvi",
+        "Polish": "stado"
+    },
+    {
+        "English": "chicken",
+        "Finnish": "kana",
+        "Polish": "kura"
+    },
+    {
+        "English": "cock",
+        "Finnish": "kukko",
+        "Polish": "kogut"
+    },
+    {
+        "English": "goose",
+        "Finnish": "hanhi",
+        "Polish": "gęś"
+    },
+    {
+        "English": "eagle",
+        "Finnish": "kotka",
+        "Polish": "orzeł"
+    },
+    {
+        "English": "duck",
+        "Finnish": "ankka",
+        "Polish": "kaczka"
+    },
+    {
+        "English": "owl",
+        "Finnish": "pöllö",
+        "Polish": "sowa"
+    },
+    {
+        "English": "crane",
+        "Finnish": "kurki",
+        "Polish": "żuraw"
+    },
+    {
+        "English": "crow",
+        "Finnish": "varis",
+        "Polish": "wrona"
+    },
+    {
+        "English": "cuckoo",
+        "Finnish": "käki",
+        "Polish": "kukułka"
+    },
+    {
+        "English": "swan",
+        "Finnish": "joutsen",
+        "Polish": "łabędź"
+    },
+    {
+        "English": "fish",
+        "Finnish": "kala",
+        "Polish": "ryba"
+    },
+    {
+        "English": "perch",
+        "Finnish": "ahven",
+        "Polish": "okoń"
+    },
+    {
+        "English": "pike",
+        "Finnish": "hauki",
+        "Polish": "szczupak"
+    },
+    {
+        "English": "snake",
+        "Finnish": "käärme",
+        "Polish": "wąż; żmija"
+    },
+    {
+        "English": "worm",
+        "Finnish": "mato",
+        "Polish": "robak"
+    },
+    {
+        "English": "spider",
+        "Finnish": "hämähäkki",
+        "Polish": "pająk"
+    },
+    {
+        "English": "ant",
+        "Finnish": "muurahainen",
+        "Polish": "mrówka"
+    },
+    {
+        "English": "louse",
+        "Finnish": "täi",
+        "Polish": "wesz"
+    },
+    {
+        "English": "gnat",
+        "Finnish": "sääski; hyttynen",
+        "Polish": "komar"
+    },
+    {
+        "English": "fly",
+        "Finnish": "kärpänen",
+        "Polish": "mucha"
+    },
+    {
+        "English": "butterfly",
+        "Finnish": "perhonen",
+        "Polish": "motyl"
+    },
+    {
+        "English": "berry",
+        "Finnish": "marja",
+        "Polish": "jagoda"
+    },
+    {
+        "English": "apple",
+        "Finnish": "omena",
+        "Polish": "jabłko"
+    },
+    {
+        "English": "mushroom",
+        "Finnish": "sieni",
+        "Polish": "grzyb"
+    },
+    {
+        "English": "onion",
+        "Finnish": "sipuli",
+        "Polish": "cebula"
+    },
+    {
+        "English": "seed",
+        "Finnish": "siemenet",
+        "Polish": "siew"
+    },
+    {
+        "English": "grain",
+        "Finnish": "jyvä; vilja",
+        "Polish": "ziarno"
+    },
+    {
+        "English": "hay",
+        "Finnish": "heinä",
+        "Polish": "siano"
+    },
+    {
+        "English": "peel, husk",
+        "Finnish": "kuori",
+        "Polish": "łupina"
+    },
+    {
+        "English": "pit",
+        "Finnish": "kuoppa",
+        "Polish": "dół; jama"
+    },
+    {
+        "English": "trap",
+        "Finnish": "loukku",
+        "Polish": "pułapka"
+    },
+    {
+        "English": "noose",
+        "Finnish": "ansa",
+        "Polish": "sidła"
+    },
+    {
+        "English": "track",
+        "Finnish": "jälki",
+        "Polish": "ślad"
+    },
+    {
+        "English": "ash",
+        "Finnish": "tuhka",
+        "Polish": "popiół"
+    },
+    {
+        "English": "filth",
+        "Finnish": "lika",
+        "Polish": "brud"
+    },
+    {
+        "English": "iron",
+        "Finnish": "rauta",
+        "Polish": "żelazo"
+    },
+    {
+        "English": "gold",
+        "Finnish": "kulta",
+        "Polish": "złoto"
+    },
+    {
+        "English": "silver",
+        "Finnish": "hopea",
+        "Polish": "srebro"
+    },
+    {
+        "English": "coal",
+        "Finnish": "hiili",
+        "Polish": "węgiel"
+    },
+    {
+        "English": "glass",
+        "Finnish": "lasi",
+        "Polish": "szkło"
+    },
+    {
+        "English": "clay",
+        "Finnish": "savi",
+        "Polish": "glina"
+    },
+    {
+        "English": "sand",
+        "Finnish": "hiekka",
+        "Polish": "piasek"
+    },
+    {
+        "English": "human",
+        "Finnish": "ihminen",
+        "Polish": "człowiek"
+    },
+    {
+        "English": "man",
+        "Finnish": "mies",
+        "Polish": "mężczyzna"
+    },
+    {
+        "English": "woman",
+        "Finnish": "nainen",
+        "Polish": "kobieta"
+    },
+    {
+        "English": "child",
+        "Finnish": "lapsi",
+        "Polish": "dziecko"
+    },
+    {
+        "English": "boy",
+        "Finnish": "poika",
+        "Polish": "chłopak; chłopiec"
+    },
+    {
+        "English": "girl",
+        "Finnish": "tyttö",
+        "Polish": "dziewczynka"
+    },
+    {
+        "English": "family",
+        "Finnish": "perhe",
+        "Polish": "rodzina"
+    },
+    {
+        "English": "grandfather",
+        "Finnish": "isoisä",
+        "Polish": "dziadek"
+    },
+    {
+        "English": "grandmother",
+        "Finnish": "isoäiti",
+        "Polish": "babka"
+    },
+    {
+        "English": "parents",
+        "Finnish": "vanhemmat",
+        "Polish": "rodzice"
+    },
+    {
+        "English": "father",
+        "Finnish": "isä",
+        "Polish": "ojciec"
+    },
+    {
+        "English": "mother",
+        "Finnish": "äiti",
+        "Polish": "matka"
+    },
+    {
+        "English": "son",
+        "Finnish": "poika",
+        "Polish": "syn"
+    },
+    {
+        "English": "daughter",
+        "Finnish": "tytär",
+        "Polish": "córka"
+    },
+    {
+        "English": "brother",
+        "Finnish": "veli",
+        "Polish": "brat"
+    },
+    {
+        "English": "sister",
+        "Finnish": "sisko",
+        "Polish": "siostra"
+    },
+    {
+        "English": "uncle",
+        "Finnish": "eno; setä",
+        "Polish": "wuj; stryj"
+    },
+    {
+        "English": "aunt",
+        "Finnish": "täti",
+        "Polish": "ciotka"
+    },
+    {
+        "English": "husband",
+        "Finnish": "mies; aviomies",
+        "Polish": "mąż"
+    },
+    {
+        "English": "wife",
+        "Finnish": "vaimo; aviovaimo",
+        "Polish": "żona"
+    },
+    {
+        "English": "joy",
+        "Finnish": "ilo; riemu",
+        "Polish": "radość"
+    },
+    {
+        "English": "laughter",
+        "Finnish": "nauru",
+        "Polish": "śmiech"
+    },
+    {
+        "English": "happiness",
+        "Finnish": "onni",
+        "Polish": "szczęście"
+    },
+    {
+        "English": "grief",
+        "Finnish": "suru; murhe",
+        "Polish": "zmartwienie"
+    },
+    {
+        "English": "wish",
+        "Finnish": "toive; toivomus",
+        "Polish": "życzenie"
+    },
+    {
+        "English": "desire",
+        "Finnish": "himo",
+        "Polish": "chęć; ochota"
+    },
+    {
+        "English": "spirit",
+        "Finnish": "henki",
+        "Polish": "duch"
+    },
+    {
+        "English": "thought",
+        "Finnish": "aate; ajatus",
+        "Polish": "myśl"
+    },
+    {
+        "English": "memory",
+        "Finnish": "muisti",
+        "Polish": "pamięć"
+    },
+    {
+        "English": "mind",
+        "Finnish": "äly; järki; ymmärrys",
+        "Polish": "rozum"
+    },
+    {
+        "English": "meaning",
+        "Finnish": "merkitys",
+        "Polish": "zmysł"
+    },
+    {
+        "English": "reason",
+        "Finnish": "syy; peruste",
+        "Polish": "powód"
+    },
+    {
+        "English": "truth",
+        "Finnish": "tosi; totuus",
+        "Polish": "prawda"
+    },
+    {
+        "English": "talk",
+        "Finnish": "puhelu; keskustelu",
+        "Polish": "rozmowa"
+    },
+    {
+        "English": "fairy tale",
+        "Finnish": "satu",
+        "Polish": "bajka"
+    },
+    {
+        "English": "story",
+        "Finnish": "tarina; kertomus",
+        "Polish": "opowiadanie"
+    },
+    {
+        "English": "message",
+        "Finnish": "tieto; ilmoitus",
+        "Polish": "wiadomość"
+    },
+    {
+        "English": "news",
+        "Finnish": "uutinen",
+        "Polish": "nowina"
+    },
+    {
+        "English": "name",
+        "Finnish": "nimi",
+        "Polish": "imię"
+    },
+    {
+        "English": "puzzle",
+        "Finnish": "arvoitus",
+        "Polish": "zagadka"
+    },
+    {
+        "English": "speech",
+        "Finnish": "puhe",
+        "Polish": "mowa"
+    },
+    {
+        "English": "language",
+        "Finnish": "kieli",
+        "Polish": "język"
+    },
+    {
+        "English": "voice",
+        "Finnish": "ääni",
+        "Polish": "głos"
+    },
+    {
+        "English": "word",
+        "Finnish": "sana",
+        "Polish": "słowo"
+    },
+    {
+        "English": "sign",
+        "Finnish": "merkki",
+        "Polish": "znak"
+    },
+    {
+        "English": "call",
+        "Finnish": "kutsu",
+        "Polish": "wołanie"
+    },
+    {
+        "English": "noise",
+        "Finnish": "melu; hälinä",
+        "Polish": "hałas; zgiełk"
+    },
+    {
+        "English": "sound",
+        "Finnish": "ääni",
+        "Polish": "dźwięk"
+    },
+    {
+        "English": "tone",
+        "Finnish": "sävel",
+        "Polish": "ton; dźwięk"
+    },
+    {
+        "English": "song",
+        "Finnish": "laulu",
+        "Polish": "pieśń; piosenka"
+    },
+    {
+        "English": "calm",
+        "Finnish": "lepo; rauha",
+        "Polish": "spokój"
+    },
+    {
+        "English": "people",
+        "Finnish": "väki; ihmiset",
+        "Polish": "ludzie"
+    },
+    {
+        "English": "nation",
+        "Finnish": "kansa",
+        "Polish": "naród"
+    },
+    {
+        "English": "work",
+        "Finnish": "työ",
+        "Polish": "praca; robota"
+    },
+    {
+        "English": "guest",
+        "Finnish": "vieras",
+        "Polish": "gość"
+    },
+    {
+        "English": "gift",
+        "Finnish": "lahja",
+        "Polish": "prezent; podarunek"
+    },
+    {
+        "English": "game",
+        "Finnish": "peli; leikki",
+        "Polish": "gra; zabawa"
+    },
+    {
+        "English": "company",
+        "Finnish": "seura",
+        "Polish": "towarzystwo"
+    },
+    {
+        "English": "help",
+        "Finnish": "apu",
+        "Polish": "pomoc"
+    },
+    {
+        "English": "friend",
+        "Finnish": "ystävä",
+        "Polish": "przyjaciel"
+    },
+    {
+        "English": "companion",
+        "Finnish": "toveri",
+        "Polish": "kolega"
+    },
+    {
+        "English": "matter",
+        "Finnish": "asia",
+        "Polish": "sprawa"
+    },
+    {
+        "English": "count",
+        "Finnish": "lukumäärä",
+        "Polish": "ilość"
+    },
+    {
+        "English": "sort",
+        "Finnish": "laji",
+        "Polish": "rodzaj"
+    },
+    {
+        "English": "piece",
+        "Finnish": "pala; kappale",
+        "Polish": "kawałek"
+    },
+    {
+        "English": "part",
+        "Finnish": "osa",
+        "Polish": "część"
+    },
+    {
+        "English": "half",
+        "Finnish": "puoli",
+        "Polish": "połowa"
+    },
+    {
+        "English": "circle",
+        "Finnish": "ympyrä",
+        "Polish": "krąg"
+    },
+    {
+        "English": "cross",
+        "Finnish": "risti",
+        "Polish": "krzyż"
+    },
+    {
+        "English": "line",
+        "Finnish": "viiva",
+        "Polish": "linia"
+    },
+    {
+        "English": "stroke",
+        "Finnish": "piirto",
+        "Polish": "kreska"
+    },
+    {
+        "English": "gap",
+        "Finnish": "väli; väljyys",
+        "Polish": "odstęp"
+    },
+    {
+        "English": "distance",
+        "Finnish": "etäisyys",
+        "Polish": "odległość"
+    },
+    {
+        "English": "area",
+        "Finnish": "seutu",
+        "Polish": "okolica"
+    },
+    {
+        "English": "space",
+        "Finnish": "tila",
+        "Polish": "miejsce"
+    },
+    {
+        "English": "place",
+        "Finnish": "kohta; paikka",
+        "Polish": "miejsce"
+    },
+    {
+        "English": "side",
+        "Finnish": "sivu; kylki",
+        "Polish": "bok; strona"
+    },
+    {
+        "English": "middle",
+        "Finnish": "keskus; puoliväli",
+        "Polish": "środek"
+    },
+    {
+        "English": "item",
+        "Finnish": "kalu; esine",
+        "Polish": "przedmiot"
+    },
+    {
+        "English": "thing",
+        "Finnish": "asia",
+        "Polish": "rzecz"
+    },
+    {
+        "English": "fringe",
+        "Finnish": "ääri; syrjä",
+        "Polish": "skraj; krawędź"
+    },
+    {
+        "English": "edge",
+        "Finnish": "särmä",
+        "Polish": "kant; krawędź"
+    },
+    {
+        "English": "corner",
+        "Finnish": "nurkka",
+        "Polish": "róg"
+    },
+    {
+        "English": "tip",
+        "Finnish": "terä; kärki",
+        "Polish": "ostrze"
+    },
+    {
+        "English": "end",
+        "Finnish": "pää; perä",
+        "Polish": "koniec"
+    },
+    {
+        "English": "hole",
+        "Finnish": "kolo; reikä",
+        "Polish": "dziura"
+    },
+    {
+        "English": "angle",
+        "Finnish": "kulma",
+        "Polish": "kąt; kącik"
+    },
+    {
+        "English": "pattern",
+        "Finnish": "kuvio",
+        "Polish": "wzór"
+    },
+    {
+        "English": "size",
+        "Finnish": "koko; suuruus",
+        "Polish": "rozmiar; wielkość"
+    },
+    {
+        "English": "length",
+        "Finnish": "pituus",
+        "Polish": "długość"
+    },
+    {
+        "English": "height",
+        "Finnish": "korkeus",
+        "Polish": "wysokość"
+    },
+    {
+        "English": "weight",
+        "Finnish": "paino",
+        "Polish": "ciężar"
+    },
+    {
+        "English": "amount",
+        "Finnish": "määrä",
+        "Polish": "ilość"
+    },
+    {
+        "English": "heap",
+        "Finnish": "kasa",
+        "Polish": "kupa"
+    },
+    {
+        "English": "row",
+        "Finnish": "rivi",
+        "Polish": "rząd; szereg"
+    },
+    {
+        "English": "boat",
+        "Finnish": "vene",
+        "Polish": "łódź; łódka"
+    },
+    {
+        "English": "oar",
+        "Finnish": "airo",
+        "Polish": "wiosło"
+    },
+    {
+        "English": "sleigh",
+        "Finnish": "reki; kelkka",
+        "Polish": "sanki"
+    },
+    {
+        "English": "ski",
+        "Finnish": "suksi",
+        "Polish": "narta"
+    },
+    {
+        "English": "campfire",
+        "Finnish": "nuotio",
+        "Polish": "ognisko"
+    },
+    {
+        "English": "load",
+        "Finnish": "kuorma",
+        "Polish": "ciężar; brzemię"
+    },
+    {
+        "English": "walk",
+        "Finnish": "kulku; käynti",
+        "Polish": "chód"
+    },
+    {
+        "English": "step",
+        "Finnish": "askel",
+        "Polish": "krok"
+    },
+    {
+        "English": "north",
+        "Finnish": "pohjoinen",
+        "Polish": "północ"
+    },
+    {
+        "English": "south",
+        "Finnish": "etelä",
+        "Polish": "południe"
+    },
+    {
+        "English": "west",
+        "Finnish": "länsi",
+        "Polish": "zachód"
+    },
+    {
+        "English": "east",
+        "Finnish": "itä",
+        "Polish": "wschód"
+    },
+    {
+        "English": "wood",
+        "Finnish": "puu",
+        "Polish": "drzewo"
+    },
+    {
+        "English": "board",
+        "Finnish": "lauta",
+        "Polish": "deska"
+    },
+    {
+        "English": "slab",
+        "Finnish": "levy",
+        "Polish": "płyta"
+    },
+    {
+        "English": "support, rest",
+        "Finnish": "noja",
+        "Polish": "podpora"
+    },
+    {
+        "English": "pole",
+        "Finnish": "tanko",
+        "Polish": "drąg; żerdź"
+    },
+    {
+        "English": "stick",
+        "Finnish": "keppi",
+        "Polish": "kij; laska"
+    },
+    {
+        "English": "staff",
+        "Finnish": "sauva; seiväs",
+        "Polish": "pręt"
+    },
+    {
+        "English": "pipe",
+        "Finnish": "putki",
+        "Polish": "rura"
+    },
+    {
+        "English": "house",
+        "Finnish": "talo",
+        "Polish": "dom"
+    },
+    {
+        "English": "home",
+        "Finnish": "koti",
+        "Polish": "dom"
+    },
+    {
+        "English": "stove",
+        "Finnish": "uuni",
+        "Polish": "piec"
+    },
+    {
+        "English": "floor",
+        "Finnish": "lattia",
+        "Polish": "podłoga"
+    },
+    {
+        "English": "table",
+        "Finnish": "pöytä",
+        "Polish": "stół"
+    },
+    {
+        "English": "chair",
+        "Finnish": "tuoli",
+        "Polish": "krzesło"
+    },
+    {
+        "English": "cradle",
+        "Finnish": "kehto",
+        "Polish": "kołyska"
+    },
+    {
+        "English": "bed",
+        "Finnish": "sänky",
+        "Polish": "łóżko; pościel"
+    },
+    {
+        "English": "shelf",
+        "Finnish": "hylly",
+        "Polish": "regał"
+    },
+    {
+        "English": "box",
+        "Finnish": "arkku; kirstu; laatikko",
+        "Polish": "skrzynia"
+    },
+    {
+        "English": "window",
+        "Finnish": "ikkuna",
+        "Polish": "okno"
+    },
+    {
+        "English": "door",
+        "Finnish": "ovi",
+        "Polish": "drzwi"
+    },
+    {
+        "English": "gate",
+        "Finnish": "portti",
+        "Polish": "brama"
+    },
+    {
+        "English": "fence",
+        "Finnish": "aita",
+        "Polish": "płot; parkan"
+    },
+    {
+        "English": "roof",
+        "Finnish": "katto",
+        "Polish": "dach"
+    },
+    {
+        "English": "ladder",
+        "Finnish": "tikkaat; tikapuut",
+        "Polish": "drabina"
+    },
+    {
+        "English": "broom",
+        "Finnish": "luuta",
+        "Polish": "miotła"
+    },
+    {
+        "English": "spade",
+        "Finnish": "lapio",
+        "Polish": "rydel"
+    },
+    {
+        "English": "shovel",
+        "Finnish": "lapio",
+        "Polish": "łopata"
+    },
+    {
+        "English": "fork",
+        "Finnish": "haarukka",
+        "Polish": "widelec"
+    },
+    {
+        "English": "spoon",
+        "Finnish": "lusikka",
+        "Polish": "łyżka"
+    },
+    {
+        "English": "knife",
+        "Finnish": "veitsi",
+        "Polish": "nóż"
+    },
+    {
+        "English": "nail",
+        "Finnish": "naula",
+        "Polish": "gwóźdź"
+    },
+    {
+        "English": "net",
+        "Finnish": "verkko",
+        "Polish": "sieć"
+    },
+    {
+        "English": "hook",
+        "Finnish": "haka; koukku",
+        "Polish": "hak"
+    },
+    {
+        "English": "handle",
+        "Finnish": "ripa; kahva",
+        "Polish": "chwyt"
+    },
+    {
+        "English": "lock",
+        "Finnish": "lukko",
+        "Polish": "zamek"
+    },
+    {
+        "English": "picture",
+        "Finnish": "kuva",
+        "Polish": "obraz"
+    },
+    {
+        "English": "figure",
+        "Finnish": "kuvio",
+        "Polish": "figura"
+    },
+    {
+        "English": "doll",
+        "Finnish": "nukke",
+        "Polish": "lalka"
+    },
+    {
+        "English": "pouch",
+        "Finnish": "pussi",
+        "Polish": "torba"
+    },
+    {
+        "English": "bundle",
+        "Finnish": "nippu; kimppu",
+        "Polish": "wiązka"
+    },
+    {
+        "English": "bag",
+        "Finnish": "laukku",
+        "Polish": "torba"
+    },
+    {
+        "English": "bucket",
+        "Finnish": "sanko; ämpäri",
+        "Polish": "kubeł; wiadro"
+    },
+    {
+        "English": "cover, lid",
+        "Finnish": "kansi",
+        "Polish": "przykrywka"
+    },
+    {
+        "English": "dishes",
+        "Finnish": "astia",
+        "Polish": "statki; naczynia"
+    },
+    {
+        "English": "sack",
+        "Finnish": "säkki",
+        "Polish": "worek"
+    },
+    {
+        "English": "cup",
+        "Finnish": "kuppi",
+        "Polish": "filiżanka"
+    },
+    {
+        "English": "pot",
+        "Finnish": "pata",
+        "Polish": "garnek"
+    },
+    {
+        "English": "kettle",
+        "Finnish": "kattila",
+        "Polish": "kocioł"
+    },
+    {
+        "English": "meal",
+        "Finnish": "syönti",
+        "Polish": "jedzenie"
+    },
+    {
+        "English": "food",
+        "Finnish": "ruoka; ravinto",
+        "Polish": "pokarm; pożywienie"
+    },
+    {
+        "English": "dish",
+        "Finnish": "ruoka",
+        "Polish": "potrawa; jedzenie"
+    },
+    {
+        "English": "meat",
+        "Finnish": "liha",
+        "Polish": "mięso"
+    },
+    {
+        "English": "corn",
+        "Finnish": "vilja",
+        "Polish": "zboże"
+    },
+    {
+        "English": "mush",
+        "Finnish": "puuro",
+        "Polish": "kasza"
+    },
+    {
+        "English": "bread",
+        "Finnish": "leipä",
+        "Polish": "chleb"
+    },
+    {
+        "English": "slice",
+        "Finnish": "viipale",
+        "Polish": "kromka"
+    },
+    {
+        "English": "fat",
+        "Finnish": "rasva",
+        "Polish": "tłuszcz"
+    },
+    {
+        "English": "butter",
+        "Finnish": "voi",
+        "Polish": "masło"
+    },
+    {
+        "English": "oil",
+        "Finnish": "öljy",
+        "Polish": "olej"
+    },
+    {
+        "English": "salt",
+        "Finnish": "suola",
+        "Polish": "sól"
+    },
+    {
+        "English": "soup",
+        "Finnish": "keitto",
+        "Polish": "zupa"
+    },
+    {
+        "English": "honey",
+        "Finnish": "hunaja",
+        "Polish": "miód"
+    },
+    {
+        "English": "milk",
+        "Finnish": "maito",
+        "Polish": "mleko"
+    },
+    {
+        "English": "tea",
+        "Finnish": "tee",
+        "Polish": "herbata"
+    },
+    {
+        "English": "leather",
+        "Finnish": "nahka",
+        "Polish": "skóra"
+    },
+    {
+        "English": "wool",
+        "Finnish": "villa",
+        "Polish": "wełna"
+    },
+    {
+        "English": "cloth",
+        "Finnish": "kangas",
+        "Polish": "tkanina; materiał"
+    },
+    {
+        "English": "needle",
+        "Finnish": "neula",
+        "Polish": "igła"
+    },
+    {
+        "English": "thread",
+        "Finnish": "lanka",
+        "Polish": "nić; nitka"
+    },
+    {
+        "English": "button",
+        "Finnish": "nappi",
+        "Polish": "guzik"
+    },
+    {
+        "English": "knot",
+        "Finnish": "solmu",
+        "Polish": "węzeł"
+    },
+    {
+        "English": "paint",
+        "Finnish": "maali",
+        "Polish": "farba"
+    },
+    {
+        "English": "clothes",
+        "Finnish": "vaatteet",
+        "Polish": "odzież"
+    },
+    {
+        "English": "shirt",
+        "Finnish": "paita",
+        "Polish": "koszula"
+    },
+    {
+        "English": "collar",
+        "Finnish": "kaulus",
+        "Polish": "kołnierz"
+    },
+    {
+        "English": "sleeve",
+        "Finnish": "hiha",
+        "Polish": "rękaw"
+    },
+    {
+        "English": "trousers",
+        "Finnish": "housut",
+        "Polish": "spodnie"
+    },
+    {
+        "English": "belt",
+        "Finnish": "vyö",
+        "Polish": "pasek"
+    },
+    {
+        "English": "cap",
+        "Finnish": "lakki",
+        "Polish": "czapka"
+    },
+    {
+        "English": "shoe",
+        "Finnish": "kenkä",
+        "Polish": "but; bucik"
+    },
+    {
+        "English": "boot",
+        "Finnish": "saapas",
+        "Polish": "but; kozak"
+    },
+    {
+        "English": "ring",
+        "Finnish": "sormus",
+        "Polish": "pierścień"
+    },
+    {
+        "English": "ribbon",
+        "Finnish": "nauha",
+        "Polish": "wstęga"
+    },
+    {
+        "English": "comb",
+        "Finnish": "kampa",
+        "Polish": "grzebień"
+    },
+    {
+        "English": "mirror",
+        "Finnish": "peili",
+        "Polish": "lustro"
+    },
+    {
+        "English": "strap",
+        "Finnish": "hihna",
+        "Polish": "rzemień"
+    },
+    {
+        "English": "string",
+        "Finnish": "naru; nuora",
+        "Polish": "sznur"
+    },
+    {
+        "English": "leash",
+        "Finnish": "talutushihna",
+        "Polish": "smycz"
+    },
+    {
+        "English": "blanket",
+        "Finnish": "peite",
+        "Polish": "kołdra"
+    },
+    {
+        "English": "pillow",
+        "Finnish": "tyyny; pielus",
+        "Polish": "poduszka"
+    },
+    {
+        "English": "scarf",
+        "Finnish": "huivi",
+        "Polish": "chustka"
+    },
+    {
+        "English": "towel",
+        "Finnish": "pyyheliina",
+        "Polish": "ręcznik"
+    },
+    {
+        "English": "force",
+        "Finnish": "väki; voima",
+        "Polish": "moc; siła"
+    },
+    {
+        "English": "strength",
+        "Finnish": "vahvuus",
+        "Polish": "moc; siła"
+    },
+    {
+        "English": "health",
+        "Finnish": "terveys",
+        "Polish": "zdrowie"
+    },
+    {
+        "English": "illness",
+        "Finnish": "tauti; sairaus",
+        "Polish": "choroba"
+    },
+    {
+        "English": "pain",
+        "Finnish": "kipu; särky",
+        "Polish": "ból"
+    },
+    {
+        "English": "wound",
+        "Finnish": "haava",
+        "Polish": "rana"
+    },
+    {
+        "English": "fever",
+        "Finnish": "kuume",
+        "Polish": "gorączka"
+    },
+    {
+        "English": "medicine",
+        "Finnish": "lääke",
+        "Polish": "lekarstwo"
+    },
+    {
+        "English": "bridge",
+        "Finnish": "silta",
+        "Polish": "most"
+    },
+    {
+        "English": "well",
+        "Finnish": "kaivo",
+        "Polish": "studnia"
+    },
+    {
+        "English": "pasture",
+        "Finnish": "laidun",
+        "Polish": "pastwisko"
+    },
+    {
+        "English": "path",
+        "Finnish": "polku",
+        "Polish": "ścieżka"
+    },
+    {
+        "English": "way",
+        "Finnish": "tie",
+        "Polish": "droga"
+    },
+    {
+        "English": "road",
+        "Finnish": "katu",
+        "Polish": "ulica"
+    },
+    {
+        "English": "village",
+        "Finnish": "kylä",
+        "Polish": "wieś"
+    },
+    {
+        "English": "town",
+        "Finnish": "kaupunki",
+        "Polish": "miasto"
+    },
+    {
+        "English": "letter",
+        "Finnish": "kirje",
+        "Polish": "list"
+    },
+    {
+        "English": "book",
+        "Finnish": "kirja",
+        "Polish": "książka"
+    },
+    {
+        "English": "character",
+        "Finnish": "kirjain",
+        "Polish": "litera"
+    },
+    {
+        "English": "newspaper",
+        "Finnish": "lehti; sanomalehti",
+        "Polish": "gazeta; dziennik"
+    },
+    {
+        "English": "life",
+        "Finnish": "elo; elämä",
+        "Polish": "życie"
+    },
+    {
+        "English": "death",
+        "Finnish": "kuolema",
+        "Polish": "śmierć"
+    },
+    {
+        "English": "grave",
+        "Finnish": "hauta",
+        "Polish": "grób"
+    },
+    {
+        "English": "church",
+        "Finnish": "kirkko",
+        "Polish": "kościół"
+    },
+    {
+        "English": "sin",
+        "Finnish": "synti",
+        "Polish": "grzech"
+    },
+    {
+        "English": "god",
+        "Finnish": "jumala",
+        "Polish": "bóg"
+    },
+    {
+        "English": "worker",
+        "Finnish": "työläinen",
+        "Polish": "robotnik"
+    },
+    {
+        "English": "boss",
+        "Finnish": "päällikkö",
+        "Polish": "szef"
+    },
+    {
+        "English": "master",
+        "Finnish": "mestari",
+        "Polish": "mistrz; majster"
+    },
+    {
+        "English": "doctor",
+        "Finnish": "lääkäri",
+        "Polish": "lekarz"
+    },
+    {
+        "English": "teacher",
+        "Finnish": "opettaja",
+        "Polish": "nauczyciel"
+    },
+    {
+        "English": "money",
+        "Finnish": "raha",
+        "Polish": "pieniądze"
+    },
+    {
+        "English": "business",
+        "Finnish": "liike",
+        "Polish": "sprawa; interes"
+    },
+    {
+        "English": "shop",
+        "Finnish": "puoti; kauppa",
+        "Polish": "sklep"
+    },
+    {
+        "English": "price",
+        "Finnish": "hinta",
+        "Polish": "cena"
+    },
+    {
+        "English": "ware",
+        "Finnish": "tavara",
+        "Polish": "towar"
+    },
+    {
+        "English": "benefit",
+        "Finnish": "hyöty",
+        "Polish": "pożytek"
+    },
+    {
+        "English": "wealth",
+        "Finnish": "rikkaus",
+        "Polish": "bogactwo"
+    },
+    {
+        "English": "world",
+        "Finnish": "maailma",
+        "Polish": "świat"
+    },
+    {
+        "English": "country",
+        "Finnish": "maa",
+        "Polish": "kraj"
+    },
+    {
+        "English": "state",
+        "Finnish": "valtio",
+        "Polish": "państwo"
+    },
+    {
+        "English": "king",
+        "Finnish": "kuningas",
+        "Polish": "król"
+    },
+    {
+        "English": "power",
+        "Finnish": "mahti",
+        "Polish": "władza"
+    },
+    {
+        "English": "border",
+        "Finnish": "raja",
+        "Polish": "granica"
+    },
+    {
+        "English": "war",
+        "Finnish": "sota",
+        "Polish": "wojna"
+    },
+    {
+        "English": "enemy",
+        "Finnish": "vihollinen",
+        "Polish": "wróg"
+    },
+    {
+        "English": "violence",
+        "Finnish": "väkivalta",
+        "Polish": "władza"
+    },
+    {
+        "English": "fight",
+        "Finnish": "taistelu",
+        "Polish": "bój; walka"
+    },
+    {
+        "English": "bow",
+        "Finnish": "jousi",
+        "Polish": "łuk"
+    },
+    {
+        "English": "arrow",
+        "Finnish": "nuoli",
+        "Polish": "strzała"
+    },
+    {
+        "English": "gun",
+        "Finnish": "kivääri",
+        "Polish": "karabin"
+    },
+    {
+        "English": "mistake",
+        "Finnish": "vika; virhe",
+        "Polish": "błąd"
+    },
+    {
+        "English": "lie",
+        "Finnish": "valhe",
+        "Polish": "kłamstwo"
+    },
+    {
+        "English": "damage",
+        "Finnish": "vaurio; vahinko",
+        "Polish": "szkoda"
+    },
+    {
+        "English": "misfortune",
+        "Finnish": "vahinko; onnettomuus",
+        "Polish": "nieszczęście"
+    },
+    {
+        "English": "fault",
+        "Finnish": "syy",
+        "Polish": "wina"
+    },
+    {
+        "English": "age",
+        "Finnish": "ikä",
+        "Polish": "wiek"
+    },
+    {
+        "English": "end",
+        "Finnish": "loppu",
+        "Polish": "koniec; zakończenie"
+    },
+    {
+        "English": "time",
+        "Finnish": "aika",
+        "Polish": "czas"
+    },
+    {
+        "English": "day",
+        "Finnish": "päivä",
+        "Polish": "dzień"
+    },
+    {
+        "English": "morning",
+        "Finnish": "aamu; huomen",
+        "Polish": "ranek; poranek"
+    },
+    {
+        "English": "noon",
+        "Finnish": "keskipäivä",
+        "Polish": "południe"
+    },
+    {
+        "English": "evening",
+        "Finnish": "ilta",
+        "Polish": "wieczór"
+    },
+    {
+        "English": "night",
+        "Finnish": "yö",
+        "Polish": "noc"
+    },
+    {
+        "English": "week",
+        "Finnish": "viikko",
+        "Polish": "tydzień"
+    },
+    {
+        "English": "month",
+        "Finnish": "kuukausi",
+        "Polish": "miesiąc"
+    },
+    {
+        "English": "year",
+        "Finnish": "vuosi",
+        "Polish": "rok"
+    },
+    {
+        "English": "spring",
+        "Finnish": "kevät",
+        "Polish": "wiosna"
+    },
+    {
+        "English": "summer",
+        "Finnish": "kesä",
+        "Polish": "lato"
+    },
+    {
+        "English": "autumn",
+        "Finnish": "syksy",
+        "Polish": "jesień"
+    },
+    {
+        "English": "winter",
+        "Finnish": "talvi",
+        "Polish": "zima"
+    },
+    {
+        "English": "January",
+        "Finnish": "tammikuu",
+        "Polish": "styczeń"
+    },
+    {
+        "English": "February",
+        "Finnish": "helmikuu",
+        "Polish": "luty"
+    },
+    {
+        "English": "March",
+        "Finnish": "maaliskuu",
+        "Polish": "marzec"
+    },
+    {
+        "English": "April",
+        "Finnish": "huhtikuu",
+        "Polish": "kwiecień"
+    },
+    {
+        "English": "May",
+        "Finnish": "toukokuu",
+        "Polish": "maj"
+    },
+    {
+        "English": "June",
+        "Finnish": "kesäkuu",
+        "Polish": "czerwiec"
+    },
+    {
+        "English": "July",
+        "Finnish": "heinäkuu",
+        "Polish": "lipiec"
+    },
+    {
+        "English": "August",
+        "Finnish": "elokuu",
+        "Polish": "sierpień"
+    },
+    {
+        "English": "September",
+        "Finnish": "syyskuu",
+        "Polish": "wrzesień"
+    },
+    {
+        "English": "October",
+        "Finnish": "lokakuu",
+        "Polish": "październik"
+    },
+    {
+        "English": "November",
+        "Finnish": "marraskuu",
+        "Polish": "listopad"
+    },
+    {
+        "English": "December",
+        "Finnish": "joulukuu",
+        "Polish": "grudzień"
+    },
+    {
+        "English": "Monday",
+        "Finnish": "maanantai",
+        "Polish": "poniedziałek"
+    },
+    {
+        "English": "Tuesday",
+        "Finnish": "tiistai",
+        "Polish": "wtorek"
+    },
+    {
+        "English": "Wednesday",
+        "Finnish": "keskiviikko",
+        "Polish": "środa"
+    },
+    {
+        "English": "Thursday",
+        "Finnish": "torstai",
+        "Polish": "czwartek"
+    },
+    {
+        "English": "Friday",
+        "Finnish": "perjantai",
+        "Polish": "piątek"
+    },
+    {
+        "English": "Saturday",
+        "Finnish": "lauantai",
+        "Polish": "sobota"
+    },
+    {
+        "English": "Sunday",
+        "Finnish": "sunnuntai",
+        "Polish": "niedziela"
+    },
+    {
+        "English": "big",
+        "Finnish": "iso; suuri",
+        "Polish": "duży; wielki"
+    },
+    {
+        "English": "little",
+        "Finnish": "pieni",
+        "Polish": "mały"
+    },
+    {
+        "English": "long",
+        "Finnish": "pitkä",
+        "Polish": "długi"
+    },
+    {
+        "English": "short",
+        "Finnish": "lyhyt",
+        "Polish": "krótki"
+    },
+    {
+        "English": "wide",
+        "Finnish": "leveä",
+        "Polish": "szeroki"
+    },
+    {
+        "English": "narrow",
+        "Finnish": "kapea",
+        "Polish": "wąski"
+    },
+    {
+        "English": "dense",
+        "Finnish": "taaja",
+        "Polish": "gęsty"
+    },
+    {
+        "English": "thick",
+        "Finnish": "paksu",
+        "Polish": "gruby"
+    },
+    {
+        "English": "thin",
+        "Finnish": "ohut",
+        "Polish": "cienki"
+    },
+    {
+        "English": "delicate, fine",
+        "Finnish": "hieno",
+        "Polish": "drobny"
+    },
+    {
+        "English": "firm, solid",
+        "Finnish": "luja",
+        "Polish": "mocny; twardy"
+    },
+    {
+        "English": "flat",
+        "Finnish": "litteä; tasainen",
+        "Polish": "płaski"
+    },
+    {
+        "English": "smooth",
+        "Finnish": "sileä; siloinen",
+        "Polish": "gładki"
+    },
+    {
+        "English": "hard",
+        "Finnish": "kova",
+        "Polish": "twardy"
+    },
+    {
+        "English": "soft",
+        "Finnish": "pehmeä",
+        "Polish": "miękki"
+    },
+    {
+        "English": "round",
+        "Finnish": "pyöreä",
+        "Polish": "okrągły"
+    },
+    {
+        "English": "pointed",
+        "Finnish": "terävä",
+        "Polish": "spiczasty"
+    },
+    {
+        "English": "sharp",
+        "Finnish": "terävä",
+        "Polish": "ostry"
+    },
+    {
+        "English": "blunt",
+        "Finnish": "tylsä",
+        "Polish": "tępy"
+    },
+    {
+        "English": "heavy",
+        "Finnish": "raskas; painava",
+        "Polish": "ciężki"
+    },
+    {
+        "English": "beautiful",
+        "Finnish": "kaunis",
+        "Polish": "ładny; piękny"
+    },
+    {
+        "English": "hot",
+        "Finnish": "kuuma",
+        "Polish": "gorący"
+    },
+    {
+        "English": "warm",
+        "Finnish": "lämmin",
+        "Polish": "ciepły"
+    },
+    {
+        "English": "cold",
+        "Finnish": "kylmä; viluinen",
+        "Polish": "zimny"
+    },
+    {
+        "English": "cool",
+        "Finnish": "viileä",
+        "Polish": "chłodny"
+    },
+    {
+        "English": "fresh",
+        "Finnish": "tuore",
+        "Polish": "świeży"
+    },
+    {
+        "English": "damp",
+        "Finnish": "kostea",
+        "Polish": "wilgotny"
+    },
+    {
+        "English": "wet",
+        "Finnish": "märkä",
+        "Polish": "mokry"
+    },
+    {
+        "English": "dry",
+        "Finnish": "kuiva",
+        "Polish": "suchy"
+    },
+    {
+        "English": "full",
+        "Finnish": "täysi",
+        "Polish": "pełny"
+    },
+    {
+        "English": "empty",
+        "Finnish": "tyhjä",
+        "Polish": "pusty; próżny"
+    },
+    {
+        "English": "open",
+        "Finnish": "avonainen",
+        "Polish": "otwarty"
+    },
+    {
+        "English": "closed",
+        "Finnish": "suljettu",
+        "Polish": "zamknięty"
+    },
+    {
+        "English": "clean",
+        "Finnish": "puhdas",
+        "Polish": "czysty"
+    },
+    {
+        "English": "dirty",
+        "Finnish": "likainen",
+        "Polish": "brudny"
+    },
+    {
+        "English": "raw",
+        "Finnish": "raaka",
+        "Polish": "surowy"
+    },
+    {
+        "English": "ripe",
+        "Finnish": "kypsä",
+        "Polish": "dojrzały"
+    },
+    {
+        "English": "delicious",
+        "Finnish": "herkullinen",
+        "Polish": "smaczny"
+    },
+    {
+        "English": "sweet",
+        "Finnish": "makea",
+        "Polish": "słodki"
+    },
+    {
+        "English": "bitter",
+        "Finnish": "karvas; kitkerä",
+        "Polish": "gorzki"
+    },
+    {
+        "English": "sour",
+        "Finnish": "hapan",
+        "Polish": "kwaśny"
+    },
+    {
+        "English": "bright",
+        "Finnish": "kirkas; valoisa",
+        "Polish": "jasny"
+    },
+    {
+        "English": "dark",
+        "Finnish": "pimeä",
+        "Polish": "ciemny"
+    },
+    {
+        "English": "black",
+        "Finnish": "musta",
+        "Polish": "czarny"
+    },
+    {
+        "English": "white",
+        "Finnish": "valkea",
+        "Polish": "biały"
+    },
+    {
+        "English": "red",
+        "Finnish": "punainen",
+        "Polish": "czerwony"
+    },
+    {
+        "English": "yellow",
+        "Finnish": "keltainen",
+        "Polish": "żółty"
+    },
+    {
+        "English": "blue",
+        "Finnish": "sininen",
+        "Polish": "błękitny; niebieski"
+    },
+    {
+        "English": "green",
+        "Finnish": "vihreä",
+        "Polish": "zielony"
+    },
+    {
+        "English": "grey",
+        "Finnish": "harmaa",
+        "Polish": "szary"
+    },
+    {
+        "English": "colourful",
+        "Finnish": "kirjava",
+        "Polish": "barwny"
+    },
+    {
+        "English": "cheap",
+        "Finnish": "halpa; huokea",
+        "Polish": "tani"
+    },
+    {
+        "English": "expensive",
+        "Finnish": "kallis",
+        "Polish": "drogi"
+    },
+    {
+        "English": "precious",
+        "Finnish": "arvokas",
+        "Polish": "cenny"
+    },
+    {
+        "English": "blind",
+        "Finnish": "sokea",
+        "Polish": "ślepy"
+    },
+    {
+        "English": "deaf",
+        "Finnish": "kuuro",
+        "Polish": "głuchy"
+    },
+    {
+        "English": "powerful",
+        "Finnish": "väkevä; voimakas",
+        "Polish": "mocny"
+    },
+    {
+        "English": "strong",
+        "Finnish": "vahva",
+        "Polish": "silny"
+    },
+    {
+        "English": "weak",
+        "Finnish": "heikko",
+        "Polish": "słaby"
+    },
+    {
+        "English": "fat",
+        "Finnish": "lihava",
+        "Polish": "tłusty"
+    },
+    {
+        "English": "slim",
+        "Finnish": "hoikka; solakka",
+        "Polish": "smukły"
+    },
+    {
+        "English": "pretty",
+        "Finnish": "soma; sievä",
+        "Polish": "ładny"
+    },
+    {
+        "English": "evil",
+        "Finnish": "paha; häijy",
+        "Polish": "zły"
+    },
+    {
+        "English": "stupid",
+        "Finnish": "tyhmä; typerä",
+        "Polish": "głupi"
+    },
+    {
+        "English": "lazy",
+        "Finnish": "laiska",
+        "Polish": "leniwy"
+    },
+    {
+        "English": "diligent",
+        "Finnish": "ahkera",
+        "Polish": "pilny"
+    },
+    {
+        "English": "stingy",
+        "Finnish": "saita",
+        "Polish": "skąpy"
+    },
+    {
+        "English": "clever",
+        "Finnish": "älykäs",
+        "Polish": "mądry"
+    },
+    {
+        "English": "skilful",
+        "Finnish": "taitava",
+        "Polish": "zręczny"
+    },
+    {
+        "English": "dear",
+        "Finnish": "rakas",
+        "Polish": "miły"
+    },
+    {
+        "English": "merry",
+        "Finnish": "hauska; iloinen",
+        "Polish": "wesoły"
+    },
+    {
+        "English": "gentle",
+        "Finnish": "lauha; lempeä",
+        "Polish": "łagodny"
+    },
+    {
+        "English": "hungry",
+        "Finnish": "nälkäinen",
+        "Polish": "głodny"
+    },
+    {
+        "English": "sick, ill",
+        "Finnish": "sairas",
+        "Polish": "chory"
+    },
+    {
+        "English": "naked",
+        "Finnish": "alaston",
+        "Polish": "nagi"
+    },
+    {
+        "English": "sad",
+        "Finnish": "surullinen; murheellinen",
+        "Polish": "smutny"
+    },
+    {
+        "English": "living",
+        "Finnish": "elävä",
+        "Polish": "żywy"
+    },
+    {
+        "English": "good",
+        "Finnish": "hyvä",
+        "Polish": "dobry"
+    },
+    {
+        "English": "bad",
+        "Finnish": "paha; huono",
+        "Polish": "zły"
+    },
+    {
+        "English": "correct",
+        "Finnish": "oikea",
+        "Polish": "słuszny; właściwy"
+    },
+    {
+        "English": "nasty, dire",
+        "Finnish": "paha",
+        "Polish": "zły"
+    },
+    {
+        "English": "true",
+        "Finnish": "tosi",
+        "Polish": "prawdziwy"
+    },
+    {
+        "English": "old",
+        "Finnish": "vanha",
+        "Polish": "stary"
+    },
+    {
+        "English": "new",
+        "Finnish": "uusi",
+        "Polish": "nowy"
+    },
+    {
+        "English": "former",
+        "Finnish": "entinen; muinainen",
+        "Polish": "były"
+    },
+    {
+        "English": "aged, old",
+        "Finnish": "vanha",
+        "Polish": "stary"
+    },
+    {
+        "English": "young",
+        "Finnish": "nuori",
+        "Polish": "młody"
+    },
+    {
+        "English": "poor",
+        "Finnish": "köyhä",
+        "Polish": "ubogi; biedny"
+    },
+    {
+        "English": "rich",
+        "Finnish": "rikas",
+        "Polish": "bogaty"
+    },
+    {
+        "English": "familiar",
+        "Finnish": "tuttu; tunnettu",
+        "Polish": "znany"
+    },
+    {
+        "English": "famous",
+        "Finnish": "kuuluisa",
+        "Polish": "słynny"
+    },
+    {
+        "English": "foreign",
+        "Finnish": "vieras",
+        "Polish": "obcy; cudzy"
+    },
+    {
+        "English": "different",
+        "Finnish": "eri; erilainen",
+        "Polish": "różny"
+    },
+    {
+        "English": "near",
+        "Finnish": "läheinen",
+        "Polish": "bliski"
+    },
+    {
+        "English": "far",
+        "Finnish": "etäinen",
+        "Polish": "daleki"
+    },
+    {
+        "English": "left",
+        "Finnish": "vasen",
+        "Polish": "lewy"
+    },
+    {
+        "English": "right",
+        "Finnish": "oikea",
+        "Polish": "prawy"
+    },
+    {
+        "English": "other",
+        "Finnish": "muu; toinen",
+        "Polish": "inny"
+    },
+    {
+        "English": "first",
+        "Finnish": "ensimmäinen",
+        "Polish": "pierwszy"
+    },
+    {
+        "English": "second",
+        "Finnish": "toinen",
+        "Polish": "drugi"
+    },
+    {
+        "English": "third",
+        "Finnish": "kolmas",
+        "Polish": "trzeci"
+    },
+    {
+        "English": "last",
+        "Finnish": "viimeinen",
+        "Polish": "ostatni"
+    },
+    {
+        "English": "alone",
+        "Finnish": "yksin",
+        "Polish": "sam"
+    },
+    {
+        "English": "at once",
+        "Finnish": "yhdellä kertaa",
+        "Polish": "naraz"
+    },
+    {
+        "English": "together",
+        "Finnish": "yhdessä",
+        "Polish": "razem"
+    },
+    {
+        "English": "long",
+        "Finnish": "kauan; pitkään",
+        "Polish": "długo"
+    },
+    {
+        "English": "suddenly",
+        "Finnish": "äkkiä",
+        "Polish": "nagle"
+    },
+    {
+        "English": "instantly",
+        "Finnish": "heti",
+        "Polish": "natychmiast"
+    },
+    {
+        "English": "later",
+        "Finnish": "myöhemmin",
+        "Polish": "później"
+    },
+    {
+        "English": "now",
+        "Finnish": "nyt",
+        "Polish": "teraz; obecnie"
+    },
+    {
+        "English": "today",
+        "Finnish": "tänään",
+        "Polish": "dziś; dzisiaj"
+    },
+    {
+        "English": "tomorrow",
+        "Finnish": "huomenna",
+        "Polish": "jutro"
+    },
+    {
+        "English": "soon",
+        "Finnish": "pian",
+        "Polish": "wkrótce"
+    },
+    {
+        "English": "then",
+        "Finnish": "sitten",
+        "Polish": "potem"
+    },
+    {
+        "English": "yesterday",
+        "Finnish": "eilen",
+        "Polish": "wczoraj"
+    },
+    {
+        "English": "once",
+        "Finnish": "aikanaan",
+        "Polish": "kiedyś; niegdyś"
+    },
+    {
+        "English": "at that time",
+        "Finnish": "silloin; siihen aikaan",
+        "Polish": "wtedy; wówczas"
+    },
+    {
+        "English": "afterwards",
+        "Finnish": "sen jälkeen",
+        "Polish": "następnie"
+    },
+    {
+        "English": "before",
+        "Finnish": "ennen",
+        "Polish": "przedtem"
+    },
+    {
+        "English": "at first",
+        "Finnish": "ensin; ensiksi",
+        "Polish": "naprzód; najpierw"
+    },
+    {
+        "English": "once",
+        "Finnish": "kerran",
+        "Polish": "raz"
+    },
+    {
+        "English": "sometimes",
+        "Finnish": "joskus",
+        "Polish": "czasem"
+    },
+    {
+        "English": "often",
+        "Finnish": "usein",
+        "Polish": "często"
+    },
+    {
+        "English": "always",
+        "Finnish": "aina",
+        "Polish": "zawsze"
+    },
+    {
+        "English": "never",
+        "Finnish": "ei koskaan",
+        "Polish": "nigdy"
+    },
+    {
+        "English": "here",
+        "Finnish": "tässä; täällä",
+        "Polish": "tu; tutaj"
+    },
+    {
+        "English": "hither",
+        "Finnish": "tähän",
+        "Polish": "tu"
+    },
+    {
+        "English": "hence",
+        "Finnish": "tästä; täältä",
+        "Polish": "stąd"
+    },
+    {
+        "English": "there",
+        "Finnish": "siinä; siellä",
+        "Polish": "tam"
+    },
+    {
+        "English": "thither",
+        "Finnish": "sinne; tuonne",
+        "Polish": "tam"
+    },
+    {
+        "English": "ahead",
+        "Finnish": "suoraan",
+        "Polish": "prosto"
+    },
+    {
+        "English": "forward",
+        "Finnish": "eteenpäin",
+        "Polish": "naprzód"
+    },
+    {
+        "English": "backward",
+        "Finnish": "taaksepäin",
+        "Polish": "wstecz"
+    },
+    {
+        "English": "back",
+        "Finnish": "takaisin",
+        "Polish": "z powrotem"
+    },
+    {
+        "English": "below",
+        "Finnish": "alhaalla",
+        "Polish": "u dołu; na dole"
+    },
+    {
+        "English": "down",
+        "Finnish": "alas",
+        "Polish": "na_dół; w_dół"
+    },
+    {
+        "English": "above",
+        "Finnish": "ylhäällä",
+        "Polish": "w górze; na górze"
+    },
+    {
+        "English": "up",
+        "Finnish": "ylös",
+        "Polish": "w górę; na górę"
+    },
+    {
+        "English": "everywhere",
+        "Finnish": "kaikkialla",
+        "Polish": "wszędzie"
+    },
+    {
+        "English": "not",
+        "Finnish": "ei",
+        "Polish": "nie"
+    },
+    {
+        "English": "a little",
+        "Finnish": "vähän",
+        "Polish": "trochę"
+    },
+    {
+        "English": "hardly",
+        "Finnish": "tuskin",
+        "Polish": "ledwie; prawie nie"
+    },
+    {
+        "English": "very",
+        "Finnish": "kovin; oikein",
+        "Polish": "bardzo"
+    },
+    {
+        "English": "so",
+        "Finnish": "näin",
+        "Polish": "tak"
+    },
+    {
+        "English": "still",
+        "Finnish": "vielä",
+        "Polish": "jeszcze"
+    },
+    {
+        "English": "only",
+        "Finnish": "vain; ainoastaan",
+        "Polish": "tylko"
+    },
+    {
+        "English": "already",
+        "Finnish": "jo",
+        "Polish": "już"
+    },
+    {
+        "English": "again",
+        "Finnish": "taas; jälleen",
+        "Polish": "znów; znowu"
+    },
+    {
+        "English": "in vain",
+        "Finnish": "turhaan",
+        "Polish": "na próżno"
+    },
+    {
+        "English": "in front of",
+        "Finnish": "edessä",
+        "Polish": "przed"
+    },
+    {
+        "English": "behind",
+        "Finnish": "takana",
+        "Polish": "za"
+    },
+    {
+        "English": "under",
+        "Finnish": "alla",
+        "Polish": "pod"
+    },
+    {
+        "English": "through",
+        "Finnish": "läpi; kautta",
+        "Polish": "przez"
+    },
+    {
+        "English": "next to",
+        "Finnish": "vieressä",
+        "Polish": "obok"
+    },
+    {
+        "English": "between",
+        "Finnish": "välillä",
+        "Polish": "między"
+    },
+    {
+        "English": "because of",
+        "Finnish": "takia; vuoksi",
+        "Polish": "z powodu"
+    },
+    {
+        "English": "this",
+        "Finnish": "tämä",
+        "Polish": "to"
+    },
+    {
+        "English": "that",
+        "Finnish": "se",
+        "Polish": "to"
+    },
+    {
+        "English": "everything",
+        "Finnish": "kaikki",
+        "Polish": "wszystko"
+    },
+    {
+        "English": "I",
+        "Finnish": "minä",
+        "Polish": "ja"
+    },
+    {
+        "English": "thou",
+        "Finnish": "sinä",
+        "Polish": "ty"
+    },
+    {
+        "English": "he",
+        "Finnish": "hän",
+        "Polish": "on"
+    },
+    {
+        "English": "we",
+        "Finnish": "me",
+        "Polish": "my"
+    },
+    {
+        "English": "you",
+        "Finnish": "te",
+        "Polish": "wy"
+    },
+    {
+        "English": "they",
+        "Finnish": "he",
+        "Polish": "oni"
+    },
+    {
+        "English": "what",
+        "Finnish": "mikä",
+        "Polish": "co"
+    },
+    {
+        "English": "who",
+        "Finnish": "ken; kuka",
+        "Polish": "kto"
+    },
+    {
+        "English": "where",
+        "Finnish": "missä",
+        "Polish": "gdzie"
+    },
+    {
+        "English": "where to",
+        "Finnish": "mihin",
+        "Polish": "dokąd"
+    },
+    {
+        "English": "how",
+        "Finnish": "miten; kuinka",
+        "Polish": "jak"
+    },
+    {
+        "English": "why",
+        "Finnish": "miksi",
+        "Polish": "dlaczego"
+    },
+    {
+        "English": "how much",
+        "Finnish": "paljonko; kuinka paljon",
+        "Polish": "ile"
+    },
+    {
+        "English": "one",
+        "Finnish": "yksi",
+        "Polish": "jeden"
+    },
+    {
+        "English": "two",
+        "Finnish": "kaksi",
+        "Polish": "dwa"
+    },
+    {
+        "English": "three",
+        "Finnish": "kolme",
+        "Polish": "trzy"
+    },
+    {
+        "English": "four",
+        "Finnish": "neljä",
+        "Polish": "cztery"
+    },
+    {
+        "English": "five",
+        "Finnish": "viisi",
+        "Polish": "pięć"
+    },
+    {
+        "English": "six",
+        "Finnish": "kuusi",
+        "Polish": "sześć"
+    },
+    {
+        "English": "seven",
+        "Finnish": "seitsemän",
+        "Polish": "siedem"
+    },
+    {
+        "English": "eight",
+        "Finnish": "kahdeksan",
+        "Polish": "osiem"
+    },
+    {
+        "English": "nine",
+        "Finnish": "yhdeksän",
+        "Polish": "dziewięć"
+    },
+    {
+        "English": "ten",
+        "Finnish": "kymmenen",
+        "Polish": "dziesięć"
+    },
+    {
+        "English": "eleven",
+        "Finnish": "yksitoista",
+        "Polish": "jedenaście"
+    },
+    {
+        "English": "twelve",
+        "Finnish": "kaksitoista",
+        "Polish": "dwanaście"
+    },
+    {
+        "English": "twenty",
+        "Finnish": "kaksikymmentä",
+        "Polish": "dwadzieścia"
+    },
+    {
+        "English": "thirty",
+        "Finnish": "kolmekymmentä",
+        "Polish": "trzydzieści"
+    },
+    {
+        "English": "forty",
+        "Finnish": "neljäkymmentä",
+        "Polish": "czterdzieści"
+    },
+    {
+        "English": "fifty",
+        "Finnish": "viisikymmentä",
+        "Polish": "pięćdziesiąt"
+    },
+    {
+        "English": "sixty",
+        "Finnish": "kuusikymmentä",
+        "Polish": "sześćdziesiąt"
+    },
+    {
+        "English": "seventy",
+        "Finnish": "seitsemänkymmentä",
+        "Polish": "siedemdziesiąt"
+    },
+    {
+        "English": "eighty",
+        "Finnish": "kahdeksankymmentä",
+        "Polish": "osiemdziesiąt"
+    },
+    {
+        "English": "ninety",
+        "Finnish": "yhdeksänkymmentä",
+        "Polish": "dziewięćdziesiąt"
+    },
+    {
+        "English": "a hundred",
+        "Finnish": "sata",
+        "Polish": "sto"
+    },
+    {
+        "English": "a thousand",
+        "Finnish": "tuhat",
+        "Polish": "tysiąc"
+    },
+    {
+        "English": "and",
+        "Finnish": "ja",
+        "Polish": "i"
+    },
+    {
+        "English": "or",
+        "Finnish": "tai",
+        "Polish": "lub; albo"
+    },
+    {
+        "English": "stand",
+        "Finnish": "seisoa",
+        "Polish": "stać"
+    },
+    {
+        "English": "sit",
+        "Finnish": "istua",
+        "Polish": "siedzieć"
+    },
+    {
+        "English": "lie",
+        "Finnish": "maata",
+        "Polish": "leżeć"
+    },
+    {
+        "English": "hang",
+        "Finnish": "riippua",
+        "Polish": "wisieć"
+    },
+    {
+        "English": "become",
+        "Finnish": "tulla; joutua",
+        "Polish": "zostać; stać się"
+    },
+    {
+        "English": "happen",
+        "Finnish": "sattua; tapahtua",
+        "Polish": "dziać się; zdarzyć się"
+    },
+    {
+        "English": "begin",
+        "Finnish": "alkaa",
+        "Polish": "zacząć się"
+    },
+    {
+        "English": "end",
+        "Finnish": "loppua; päättyä",
+        "Polish": "kończyć się"
+    },
+    {
+        "English": "change",
+        "Finnish": "vaihtua; vaihdella",
+        "Polish": "zmienić się"
+    },
+    {
+        "English": "rise",
+        "Finnish": "nousta",
+        "Polish": "wzejść"
+    },
+    {
+        "English": "set",
+        "Finnish": "laskea",
+        "Polish": "zajść"
+    },
+    {
+        "English": "shine",
+        "Finnish": "paistaa",
+        "Polish": "świecić"
+    },
+    {
+        "English": "thunder",
+        "Finnish": "jyristä",
+        "Polish": "grzmieć"
+    },
+    {
+        "English": "blow",
+        "Finnish": "tuulla; puhaltaa",
+        "Polish": "wiać"
+    },
+    {
+        "English": "stream",
+        "Finnish": "virrata",
+        "Polish": "płynąć; lać się"
+    },
+    {
+        "English": "flow",
+        "Finnish": "valua; juosta",
+        "Polish": "ciec; płynąć"
+    },
+    {
+        "English": "revolve",
+        "Finnish": "pyöriä",
+        "Polish": "obracać się"
+    },
+    {
+        "English": "sway",
+        "Finnish": "horjua",
+        "Polish": "chwiać się"
+    },
+    {
+        "English": "swing",
+        "Finnish": "heilua; värähdellä",
+        "Polish": "wahać się"
+    },
+    {
+        "English": "fall",
+        "Finnish": "pudota; langeta",
+        "Polish": "padać"
+    },
+    {
+        "English": "burn",
+        "Finnish": "palaa",
+        "Polish": "palić się"
+    },
+    {
+        "English": "smoke",
+        "Finnish": "savuta",
+        "Polish": "dymić; dymić się"
+    },
+    {
+        "English": "rain",
+        "Finnish": "sataa",
+        "Polish": "padać"
+    },
+    {
+        "English": "freeze",
+        "Finnish": "jäätyä",
+        "Polish": "zamarznąć"
+    },
+    {
+        "English": "thaw",
+        "Finnish": "sulaa",
+        "Polish": "tajać"
+    },
+    {
+        "English": "melt",
+        "Finnish": "sulaa",
+        "Polish": "topnieć"
+    },
+    {
+        "English": "dry",
+        "Finnish": "kuivua",
+        "Polish": "schnąć"
+    },
+    {
+        "English": "boil",
+        "Finnish": "kiehua",
+        "Polish": "wrzeć; kipieć"
+    },
+    {
+        "English": "rot",
+        "Finnish": "mädätä",
+        "Polish": "gnić"
+    },
+    {
+        "English": "decay",
+        "Finnish": "mädätä; mädäntyä",
+        "Polish": "zgnić"
+    },
+    {
+        "English": "snap",
+        "Finnish": "revetä",
+        "Polish": "urywać się"
+    },
+    {
+        "English": "sink",
+        "Finnish": "upota; vajota",
+        "Polish": "tonąć"
+    },
+    {
+        "English": "pass",
+        "Finnish": "kulua",
+        "Polish": "przechodzić"
+    },
+    {
+        "English": "appear",
+        "Finnish": "ilmestyä",
+        "Polish": "zjawiać się"
+    },
+    {
+        "English": "disappear",
+        "Finnish": "kadota",
+        "Polish": "zniknąć"
+    },
+    {
+        "English": "drop, descend",
+        "Finnish": "vajota",
+        "Polish": "spadać"
+    },
+    {
+        "English": "decrease",
+        "Finnish": "vähetä",
+        "Polish": "spadać"
+    },
+    {
+        "English": "increase",
+        "Finnish": "kasvaa; lisääntyä",
+        "Polish": "wzrosnąć"
+    },
+    {
+        "English": "rise",
+        "Finnish": "nousta",
+        "Polish": "wzrastać"
+    },
+    {
+        "English": "grow",
+        "Finnish": "kasvaa",
+        "Polish": "rosnąć"
+    },
+    {
+        "English": "shine",
+        "Finnish": "kiiltää",
+        "Polish": "błyszczeć"
+    },
+    {
+        "English": "sparkle, twinkle",
+        "Finnish": "kipinöidä",
+        "Polish": "zabłyszczeć"
+    },
+    {
+        "English": "be noisy",
+        "Finnish": "meluta",
+        "Polish": "hałasować"
+    },
+    {
+        "English": "chime",
+        "Finnish": "soida",
+        "Polish": "dzwonić"
+    },
+    {
+        "English": "ring",
+        "Finnish": "soida",
+        "Polish": "dzwonić"
+    },
+    {
+        "English": "tinkle",
+        "Finnish": "kalista",
+        "Polish": "brzęczeć"
+    },
+    {
+        "English": "roar",
+        "Finnish": "kohista",
+        "Polish": "huczeć"
+    },
+    {
+        "English": "rustle",
+        "Finnish": "kohista",
+        "Polish": "szumieć; szeleścić"
+    },
+    {
+        "English": "sound",
+        "Finnish": "soida",
+        "Polish": "brzmieć; dźwięczeć"
+    },
+    {
+        "English": "bark",
+        "Finnish": "haukkua",
+        "Polish": "szczekać"
+    },
+    {
+        "English": "howl",
+        "Finnish": "ulvoa",
+        "Polish": "wyć"
+    },
+    {
+        "English": "blow",
+        "Finnish": "puhaltaa",
+        "Polish": "dmuchnąć"
+    },
+    {
+        "English": "whistle",
+        "Finnish": "viheltää",
+        "Polish": "gwizdać"
+    },
+    {
+        "English": "shout",
+        "Finnish": "kirkua",
+        "Polish": "krzyczeć"
+    },
+    {
+        "English": "groan",
+        "Finnish": "voihkia",
+        "Polish": "stękać"
+    },
+    {
+        "English": "tremble",
+        "Finnish": "vapista",
+        "Polish": "drżeć"
+    },
+    {
+        "English": "live",
+        "Finnish": "elää",
+        "Polish": "żyć"
+    },
+    {
+        "English": "be born",
+        "Finnish": "syntyä",
+        "Polish": "urodzić się"
+    },
+    {
+        "English": "breathe",
+        "Finnish": "hengittää",
+        "Polish": "oddychać"
+    },
+    {
+        "English": "drink",
+        "Finnish": "juoda",
+        "Polish": "pić"
+    },
+    {
+        "English": "eat",
+        "Finnish": "syödä",
+        "Polish": "jeść"
+    },
+    {
+        "English": "swallow",
+        "Finnish": "niellä",
+        "Polish": "połknąć"
+    },
+    {
+        "English": "get tired",
+        "Finnish": "uupua",
+        "Polish": "zmęczyć się"
+    },
+    {
+        "English": "fall asleep",
+        "Finnish": "uinahtaa",
+        "Polish": "zasnąć"
+    },
+    {
+        "English": "sleep",
+        "Finnish": "maata; nukkua",
+        "Polish": "spać"
+    },
+    {
+        "English": "wake up",
+        "Finnish": "herätä",
+        "Polish": "obudzić się"
+    },
+    {
+        "English": "get up",
+        "Finnish": "nousta; nousta ylös",
+        "Polish": "wstać"
+    },
+    {
+        "English": "relax",
+        "Finnish": "levätä",
+        "Polish": "wypoczywać"
+    },
+    {
+        "English": "fall ill",
+        "Finnish": "sairastua",
+        "Polish": "zachorować"
+    },
+    {
+        "English": "be ill",
+        "Finnish": "potea; sairastaa",
+        "Polish": "chorować"
+    },
+    {
+        "English": "ache",
+        "Finnish": "särkeä; kivistää",
+        "Polish": "boleć"
+    },
+    {
+        "English": "cough",
+        "Finnish": "yskiä",
+        "Polish": "kaszleć"
+    },
+    {
+        "English": "recover",
+        "Finnish": "toipua",
+        "Polish": "wyzdrowieć"
+    },
+    {
+        "English": "die",
+        "Finnish": "kuolla",
+        "Polish": "umrzeć"
+    },
+    {
+        "English": "perish",
+        "Finnish": "saada surmansa; kuolla",
+        "Polish": "zginąć"
+    },
+    {
+        "English": "move",
+        "Finnish": "liikkua",
+        "Polish": "poruszać się"
+    },
+    {
+        "English": "budge",
+        "Finnish": "liikahtaa",
+        "Polish": "ruszyć się"
+    },
+    {
+        "English": "stand up",
+        "Finnish": "nousta",
+        "Polish": "podnieść się"
+    },
+    {
+        "English": "sit down",
+        "Finnish": "istuutua",
+        "Polish": "usiąść"
+    },
+    {
+        "English": "tumble",
+        "Finnish": "kaatua",
+        "Polish": "upaść"
+    },
+    {
+        "English": "walk",
+        "Finnish": "kävellä",
+        "Polish": "chodzić"
+    },
+    {
+        "English": "step",
+        "Finnish": "astua; astella",
+        "Polish": "kroczyć"
+    },
+    {
+        "English": "take a walk",
+        "Finnish": "kävellä",
+        "Polish": "iść na spacer"
+    },
+    {
+        "English": "rush",
+        "Finnish": "kiirehtiä",
+        "Polish": "pospieszać"
+    },
+    {
+        "English": "hurry",
+        "Finnish": "kiirehtiä; olla kiireissään",
+        "Polish": "pospieszyć się"
+    },
+    {
+        "English": "dash",
+        "Finnish": "rynnätä; viilettää",
+        "Polish": "pędzić"
+    },
+    {
+        "English": "run",
+        "Finnish": "juosta",
+        "Polish": "biec; biegać"
+    },
+    {
+        "English": "jump",
+        "Finnish": "hypätä",
+        "Polish": "skakać"
+    },
+    {
+        "English": "climb",
+        "Finnish": "kiivetä",
+        "Polish": "wspinać się"
+    },
+    {
+        "English": "seesaw",
+        "Finnish": "kiikkua",
+        "Polish": "huśtać; kołysać"
+    },
+    {
+        "English": "creep",
+        "Finnish": "ryömiä",
+        "Polish": "pełzać; czołgać się"
+    },
+    {
+        "English": "swim",
+        "Finnish": "uida",
+        "Polish": "pływać"
+    },
+    {
+        "English": "dive",
+        "Finnish": "sukeltaa",
+        "Polish": "zanurzać się"
+    },
+    {
+        "English": "row",
+        "Finnish": "soutaa",
+        "Polish": "wiosłować"
+    },
+    {
+        "English": "drive",
+        "Finnish": "ajaa; kulkea",
+        "Polish": "jechać"
+    },
+    {
+        "English": "fly",
+        "Finnish": "lentää",
+        "Polish": "latać; lecieć"
+    },
+    {
+        "English": "go",
+        "Finnish": "käydä",
+        "Polish": "iść"
+    },
+    {
+        "English": "go away",
+        "Finnish": "lähteä; poistua",
+        "Polish": "odejść"
+    },
+    {
+        "English": "depart",
+        "Finnish": "lähteä",
+        "Polish": "odjechać"
+    },
+    {
+        "English": "stop",
+        "Finnish": "pysähtyä; seisahtua",
+        "Polish": "zatrzymać się"
+    },
+    {
+        "English": "go in",
+        "Finnish": "mennä sisään",
+        "Polish": "wchodzić"
+    },
+    {
+        "English": "enter",
+        "Finnish": "astua sisään",
+        "Polish": "wejść; nastąpić"
+    },
+    {
+        "English": "come",
+        "Finnish": "tulla",
+        "Polish": "przyjść"
+    },
+    {
+        "English": "arrive",
+        "Finnish": "saapua",
+        "Polish": "przybyć"
+    },
+    {
+        "English": "come back",
+        "Finnish": "palata",
+        "Polish": "wrócić"
+    },
+    {
+        "English": "stay",
+        "Finnish": "jäädä; viipyä",
+        "Polish": "zostać"
+    },
+    {
+        "English": "wait",
+        "Finnish": "odottaa",
+        "Polish": "czekać"
+    },
+    {
+        "English": "await",
+        "Finnish": "odottaa",
+        "Polish": "oczekiwać"
+    },
+    {
+        "English": "look for",
+        "Finnish": "etsiä",
+        "Polish": "szukać"
+    },
+    {
+        "English": "find",
+        "Finnish": "löytää",
+        "Polish": "znaleźć"
+    },
+    {
+        "English": "try",
+        "Finnish": "yrittää",
+        "Polish": "próbować"
+    },
+    {
+        "English": "prepare",
+        "Finnish": "valmistaa",
+        "Polish": "przygotować"
+    },
+    {
+        "English": "love",
+        "Finnish": "pitää; rakastaa",
+        "Polish": "kochać"
+    },
+    {
+        "English": "like",
+        "Finnish": "pitää; tykätä",
+        "Polish": "lubić"
+    },
+    {
+        "English": "laugh",
+        "Finnish": "nauraa",
+        "Polish": "śmiać się"
+    },
+    {
+        "English": "move",
+        "Finnish": "liikuttaa",
+        "Polish": "wzruszyć"
+    },
+    {
+        "English": "weep, cry",
+        "Finnish": "itkeä",
+        "Polish": "płakać"
+    },
+    {
+        "English": "grumble",
+        "Finnish": "haukkua",
+        "Polish": "kląć"
+    },
+    {
+        "English": "be annoyed",
+        "Finnish": "suuttua",
+        "Polish": "gniewać się"
+    },
+    {
+        "English": "be afraid",
+        "Finnish": "pelätä",
+        "Polish": "bać się"
+    },
+    {
+        "English": "be afraid of",
+        "Finnish": "pelätä",
+        "Polish": "bać się"
+    },
+    {
+        "English": "flee",
+        "Finnish": "paeta",
+        "Polish": "uciekać"
+    },
+    {
+        "English": "escape",
+        "Finnish": "paeta",
+        "Polish": "uciec"
+    },
+    {
+        "English": "see",
+        "Finnish": "nähdä",
+        "Polish": "widzieć; zobaczyć"
+    },
+    {
+        "English": "look at",
+        "Finnish": "katsoa",
+        "Polish": "oglądać"
+    },
+    {
+        "English": "watch",
+        "Finnish": "katsoa",
+        "Polish": "popatrzeć na"
+    },
+    {
+        "English": "hear",
+        "Finnish": "kuulla",
+        "Polish": "słyszeć"
+    },
+    {
+        "English": "listen",
+        "Finnish": "kuunnella",
+        "Polish": "słuchać"
+    },
+    {
+        "English": "taste",
+        "Finnish": "maistaa",
+        "Polish": "kosztować"
+    },
+    {
+        "English": "smell",
+        "Finnish": "haistaa",
+        "Polish": "wąchać"
+    },
+    {
+        "English": "feel",
+        "Finnish": "tuntea",
+        "Polish": "czuć; odczuwać"
+    },
+    {
+        "English": "seem",
+        "Finnish": "tuntua",
+        "Polish": "wydawać się"
+    },
+    {
+        "English": "show",
+        "Finnish": "näkyä",
+        "Polish": "widnieć"
+    },
+    {
+        "English": "hear",
+        "Finnish": "kuulla",
+        "Polish": "usłyszeć"
+    },
+    {
+        "English": "be cold",
+        "Finnish": "palella",
+        "Polish": "marznąć"
+    },
+    {
+        "English": "do",
+        "Finnish": "tehdä",
+        "Polish": "czynić"
+    },
+    {
+        "English": "can",
+        "Finnish": "osata",
+        "Polish": "móc; umieć"
+    },
+    {
+        "English": "want",
+        "Finnish": "tahtoa",
+        "Polish": "chcieć"
+    },
+    {
+        "English": "start",
+        "Finnish": "ruveta; aloittaa",
+        "Polish": "zacząć"
+    },
+    {
+        "English": "finish",
+        "Finnish": "lopettaa",
+        "Polish": "zakończyć"
+    },
+    {
+        "English": "stop",
+        "Finnish": "loppua",
+        "Polish": "przestać"
+    },
+    {
+        "English": "succeed",
+        "Finnish": "onnistua",
+        "Polish": "udać się"
+    },
+    {
+        "English": "turn out",
+        "Finnish": "sujua; joutua",
+        "Polish": "udać się"
+    },
+    {
+        "English": "open",
+        "Finnish": "avata; aukaista",
+        "Polish": "otworzyć"
+    },
+    {
+        "English": "close",
+        "Finnish": "sulkea",
+        "Polish": "zamknąć"
+    },
+    {
+        "English": "put",
+        "Finnish": "panna; asettaa",
+        "Polish": "postawić"
+    },
+    {
+        "English": "place",
+        "Finnish": "panna; istuttaa",
+        "Polish": "posadzić"
+    },
+    {
+        "English": "lay",
+        "Finnish": "panna; asettaa",
+        "Polish": "kłaść"
+    },
+    {
+        "English": "touch",
+        "Finnish": "koskea; koskettaa",
+        "Polish": "dotykać"
+    },
+    {
+        "English": "connect",
+        "Finnish": "liittää; yhdistää",
+        "Polish": "łączyć"
+    },
+    {
+        "English": "cover",
+        "Finnish": "kattaa; peittää",
+        "Polish": "przykryć"
+    },
+    {
+        "English": "hang up",
+        "Finnish": "ripustaa",
+        "Polish": "powiesić"
+    },
+    {
+        "English": "light",
+        "Finnish": "sytyttää",
+        "Polish": "zapalić"
+    },
+    {
+        "English": "pick up",
+        "Finnish": "ylös nostaa; nostaa",
+        "Polish": "podnieść"
+    },
+    {
+        "English": "leave",
+        "Finnish": "jättää",
+        "Polish": "zostawić"
+    },
+    {
+        "English": "lose",
+        "Finnish": "kadottaa",
+        "Polish": "zgubić"
+    },
+    {
+        "English": "drop",
+        "Finnish": "pudottaa",
+        "Polish": "upuścić"
+    },
+    {
+        "English": "make",
+        "Finnish": "tehdä",
+        "Polish": "zrobić"
+    },
+    {
+        "English": "produce",
+        "Finnish": "tuottaa; valmistaa",
+        "Polish": "wytworzyć"
+    },
+    {
+        "English": "build",
+        "Finnish": "rakentaa",
+        "Polish": "budować"
+    },
+    {
+        "English": "repair, mend",
+        "Finnish": "korjata",
+        "Polish": "naprawiać"
+    },
+    {
+        "English": "improve",
+        "Finnish": "parantaa",
+        "Polish": "ulepszyć"
+    },
+    {
+        "English": "alter",
+        "Finnish": "muuttaa",
+        "Polish": "zmienić"
+    },
+    {
+        "English": "dig",
+        "Finnish": "kaivaa",
+        "Polish": "kopać"
+    },
+    {
+        "English": "bow",
+        "Finnish": "taivuttaa",
+        "Polish": "zagiąć"
+    },
+    {
+        "English": "bend",
+        "Finnish": "taivuttaa",
+        "Polish": "zgiąć"
+    },
+    {
+        "English": "spin",
+        "Finnish": "kääntää",
+        "Polish": "obracać"
+    },
+    {
+        "English": "turn over",
+        "Finnish": "kääntää",
+        "Polish": "obrócić"
+    },
+    {
+        "English": "turn, turn around",
+        "Finnish": "kääntää",
+        "Polish": "obrócić"
+    },
+    {
+        "English": "raise",
+        "Finnish": "nostaa; kohottaa",
+        "Polish": "podnosić"
+    },
+    {
+        "English": "lift",
+        "Finnish": "nostaa",
+        "Polish": "podnieść"
+    },
+    {
+        "English": "seize",
+        "Finnish": "tarttua",
+        "Polish": "chwycić"
+    },
+    {
+        "English": "hold",
+        "Finnish": "pitää",
+        "Polish": "trzymać"
+    },
+    {
+        "English": "press",
+        "Finnish": "painaa; puristaa",
+        "Polish": "naciskać"
+    },
+    {
+        "English": "push",
+        "Finnish": "työntää",
+        "Polish": "pchać; posuwać"
+    },
+    {
+        "English": "scrape",
+        "Finnish": "raapia",
+        "Polish": "drapać"
+    },
+    {
+        "English": "lick",
+        "Finnish": "nuolla",
+        "Polish": "lizać"
+    },
+    {
+        "English": "bite",
+        "Finnish": "purra",
+        "Polish": "kąsać"
+    },
+    {
+        "English": "tear off",
+        "Finnish": "repiä",
+        "Polish": "oderwać"
+    },
+    {
+        "English": "cut off",
+        "Finnish": "leikata poikki; leikata",
+        "Polish": "odciąć"
+    },
+    {
+        "English": "tie",
+        "Finnish": "sitoa",
+        "Polish": "wiązać"
+    },
+    {
+        "English": "stick",
+        "Finnish": "pistää",
+        "Polish": "wetknąć"
+    },
+    {
+        "English": "break",
+        "Finnish": "murtaa",
+        "Polish": "złamać"
+    },
+    {
+        "English": "knock",
+        "Finnish": "koputtaa; kolkuttaa",
+        "Polish": "pukać; stukać"
+    },
+    {
+        "English": "hit",
+        "Finnish": "lyödä",
+        "Polish": "bić"
+    },
+    {
+        "English": "glue",
+        "Finnish": "liimata",
+        "Polish": "kleić"
+    },
+    {
+        "English": "rub",
+        "Finnish": "hieroa; hangata",
+        "Polish": "trzeć"
+    },
+    {
+        "English": "spread",
+        "Finnish": "sivellä",
+        "Polish": "smarować"
+    },
+    {
+        "English": "sharpen",
+        "Finnish": "hioa",
+        "Polish": "ostrzyć"
+    },
+    {
+        "English": "cut",
+        "Finnish": "leikata",
+        "Polish": "ciąć; krajać"
+    },
+    {
+        "English": "jog",
+        "Finnish": "ravistaa",
+        "Polish": "trząść"
+    },
+    {
+        "English": "shake",
+        "Finnish": "pudistaa",
+        "Polish": "trząść"
+    },
+    {
+        "English": "swing",
+        "Finnish": "heiluttaa",
+        "Polish": "machać"
+    },
+    {
+        "English": "pour",
+        "Finnish": "kaataa",
+        "Polish": "nasypać"
+    },
+    {
+        "English": "fill",
+        "Finnish": "täyttää",
+        "Polish": "napełnić"
+    },
+    {
+        "English": "wrap",
+        "Finnish": "kääriä",
+        "Polish": "zawinąć"
+    },
+    {
+        "English": "carry",
+        "Finnish": "kantaa",
+        "Polish": "nieść"
+    },
+    {
+        "English": "drag",
+        "Finnish": "raahata",
+        "Polish": "wlec"
+    },
+    {
+        "English": "pull",
+        "Finnish": "vetää",
+        "Polish": "ciągnąć"
+    },
+    {
+        "English": "keep",
+        "Finnish": "säilyttää",
+        "Polish": "przechowywać"
+    },
+    {
+        "English": "throw",
+        "Finnish": "viskata",
+        "Polish": "rzucać"
+    },
+    {
+        "English": "catch",
+        "Finnish": "napata; ottaa kiinni",
+        "Polish": "łowić"
+    },
+    {
+        "English": "grab",
+        "Finnish": "tarttua",
+        "Polish": "chwycić"
+    },
+    {
+        "English": "hide",
+        "Finnish": "kätkeä; piilottaa",
+        "Polish": "ukryć; schować"
+    },
+    {
+        "English": "divide",
+        "Finnish": "jakaa",
+        "Polish": "podzielić"
+    },
+    {
+        "English": "send",
+        "Finnish": "lähettää",
+        "Polish": "posyłać"
+    },
+    {
+        "English": "bring",
+        "Finnish": "viedä",
+        "Polish": "przynieść"
+    },
+    {
+        "English": "add",
+        "Finnish": "lisätä",
+        "Polish": "dodać"
+    },
+    {
+        "English": "get",
+        "Finnish": "saada",
+        "Polish": "dostać"
+    },
+    {
+        "English": "receive",
+        "Finnish": "saada",
+        "Polish": "otrzymać"
+    },
+    {
+        "English": "take",
+        "Finnish": "ottaa",
+        "Polish": "wziąć"
+    },
+    {
+        "English": "choose",
+        "Finnish": "valita",
+        "Polish": "wybrać"
+    },
+    {
+        "English": "select",
+        "Finnish": "valikoida",
+        "Polish": "wybrać"
+    },
+    {
+        "English": "preserve",
+        "Finnish": "säilyttää",
+        "Polish": "zachować"
+    },
+    {
+        "English": "hinder",
+        "Finnish": "estää",
+        "Polish": "utrudnić; przeszkadzać"
+    },
+    {
+        "English": "spoil",
+        "Finnish": "pilata; turmella",
+        "Polish": "zepsuć"
+    },
+    {
+        "English": "damage",
+        "Finnish": "vioittaa; vahingoittaa",
+        "Polish": "uszkodzić"
+    },
+    {
+        "English": "break",
+        "Finnish": "rikkoa",
+        "Polish": "złamać"
+    },
+    {
+        "English": "tear",
+        "Finnish": "repiä rikki; repiä palasiksi",
+        "Polish": "drzeć; rozdzierać"
+    },
+    {
+        "English": "destroy",
+        "Finnish": "hävittää",
+        "Polish": "zniszczyć"
+    },
+    {
+        "English": "burn",
+        "Finnish": "polttaa",
+        "Polish": "spalić"
+    },
+    {
+        "English": "give",
+        "Finnish": "antaa",
+        "Polish": "dać"
+    },
+    {
+        "English": "hand",
+        "Finnish": "ojentaa",
+        "Polish": "podać"
+    },
+    {
+        "English": "give",
+        "Finnish": "lahjoittaa",
+        "Polish": "darować"
+    },
+    {
+        "English": "promise",
+        "Finnish": "luvata",
+        "Polish": "obiecać"
+    },
+    {
+        "English": "wish",
+        "Finnish": "toivottaa",
+        "Polish": "życzyć"
+    },
+    {
+        "English": "praise",
+        "Finnish": "ylistää",
+        "Polish": "chwalić"
+    },
+    {
+        "English": "kiss",
+        "Finnish": "suudella",
+        "Polish": "całować"
+    },
+    {
+        "English": "rock",
+        "Finnish": "tuudittaa; keinuttaa",
+        "Polish": "kołysać"
+    },
+    {
+        "English": "cover",
+        "Finnish": "peittää",
+        "Polish": "przykryć"
+    },
+    {
+        "English": "wake",
+        "Finnish": "herättää",
+        "Polish": "zbudzić"
+    },
+    {
+        "English": "show",
+        "Finnish": "näyttää; osoittaa",
+        "Polish": "pokazać"
+    },
+    {
+        "English": "guide",
+        "Finnish": "johdattaa",
+        "Polish": "wieść; prowadzić"
+    },
+    {
+        "English": "teach",
+        "Finnish": "opettaa",
+        "Polish": "uczyć"
+    },
+    {
+        "English": "instruct",
+        "Finnish": "opettaa",
+        "Polish": "nauczać"
+    },
+    {
+        "English": "bring up",
+        "Finnish": "kasvattaa",
+        "Polish": "wychować"
+    },
+    {
+        "English": "lead",
+        "Finnish": "johtaa",
+        "Polish": "kierować"
+    },
+    {
+        "English": "urge",
+        "Finnish": "hoputtaa",
+        "Polish": "popędzić"
+    },
+    {
+        "English": "let",
+        "Finnish": "antaa",
+        "Polish": "zostawić"
+    },
+    {
+        "English": "invite",
+        "Finnish": "kutsua",
+        "Polish": "zaprosić"
+    },
+    {
+        "English": "unite",
+        "Finnish": "yhdistää",
+        "Polish": "zjednoczyć"
+    },
+    {
+        "English": "visit",
+        "Finnish": "vierailla",
+        "Polish": "odwiedzić"
+    },
+    {
+        "English": "meet",
+        "Finnish": "tavata",
+        "Polish": "trafić; spotkać"
+    },
+    {
+        "English": "assemble",
+        "Finnish": "kokoontua",
+        "Polish": "zebrać się; zgromadzić się"
+    },
+    {
+        "English": "play",
+        "Finnish": "pelata; leikkiä",
+        "Polish": "grać; bawić się"
+    },
+    {
+        "English": "sing",
+        "Finnish": "laulaa",
+        "Polish": "śpiewać"
+    },
+    {
+        "English": "dance",
+        "Finnish": "tanssia",
+        "Polish": "pląsać; tańczyć"
+    },
+    {
+        "English": "separate",
+        "Finnish": "erota",
+        "Polish": "rozstać się"
+    },
+    {
+        "English": "leave",
+        "Finnish": "jättää",
+        "Polish": "opuścić"
+    },
+    {
+        "English": "rescue",
+        "Finnish": "pelastaa",
+        "Polish": "ocalić; uratować"
+    },
+    {
+        "English": "guard",
+        "Finnish": "vartioida",
+        "Polish": "pilnować"
+    },
+    {
+        "English": "protect",
+        "Finnish": "suojella",
+        "Polish": "ochronić"
+    },
+    {
+        "English": "defend",
+        "Finnish": "puolustaa",
+        "Polish": "bronić"
+    },
+    {
+        "English": "brawl",
+        "Finnish": "tapella",
+        "Polish": "pobić się"
+    },
+    {
+        "English": "shoot",
+        "Finnish": "ampua",
+        "Polish": "strzelać"
+    },
+    {
+        "English": "win",
+        "Finnish": "voittaa",
+        "Polish": "zwycziężyć"
+    },
+    {
+        "English": "annoy",
+        "Finnish": "ärsyttää",
+        "Polish": "gniewać"
+    },
+    {
+        "English": "beat",
+        "Finnish": "lyödä",
+        "Polish": "bić; uderzyć"
+    },
+    {
+        "English": "kick",
+        "Finnish": "potkaista",
+        "Polish": "kopnąć"
+    },
+    {
+        "English": "sting",
+        "Finnish": "pistää",
+        "Polish": "ukłuć"
+    },
+    {
+        "English": "shove",
+        "Finnish": "sysätä; työntää",
+        "Polish": "popchnąć"
+    },
+    {
+        "English": "steal",
+        "Finnish": "varastaa",
+        "Polish": "ukraść"
+    },
+    {
+        "English": "disturb",
+        "Finnish": "häiritä",
+        "Polish": "zakłócić; przeszkodzić"
+    },
+    {
+        "English": "bother",
+        "Finnish": "häiritä",
+        "Polish": "dokuczać"
+    },
+    {
+        "English": "conceal",
+        "Finnish": "kätkeä",
+        "Polish": "ukryć"
+    },
+    {
+        "English": "deceive",
+        "Finnish": "harhauttaa",
+        "Polish": "łudzić"
+    },
+    {
+        "English": "cheat",
+        "Finnish": "pettää; petkuttaa",
+        "Polish": "oszukać"
+    },
+    {
+        "English": "kill",
+        "Finnish": "tappaa",
+        "Polish": "zabić"
+    },
+    {
+        "English": "dwell",
+        "Finnish": "asua",
+        "Polish": "mieszkać"
+    },
+    {
+        "English": "work",
+        "Finnish": "tehdä työtä; työskennellä",
+        "Polish": "pracować"
+    },
+    {
+        "English": "gather",
+        "Finnish": "koota; kerätä",
+        "Polish": "zebrać"
+    },
+    {
+        "English": "pick",
+        "Finnish": "poimia",
+        "Polish": "zerwać"
+    },
+    {
+        "English": "hunt",
+        "Finnish": "metsästää",
+        "Polish": "polować"
+    },
+    {
+        "English": "fish",
+        "Finnish": "kalastaa",
+        "Polish": "łowić ryby"
+    },
+    {
+        "English": "catch",
+        "Finnish": "pyydystää; saalistaa",
+        "Polish": "złapać"
+    },
+    {
+        "English": "herd",
+        "Finnish": "paimentaa",
+        "Polish": "paść"
+    },
+    {
+        "English": "drive",
+        "Finnish": "ajaa",
+        "Polish": "pędzić"
+    },
+    {
+        "English": "tie up",
+        "Finnish": "kytkeä",
+        "Polish": "przywiązać"
+    },
+    {
+        "English": "feed",
+        "Finnish": "ruokkia",
+        "Polish": "karmić"
+    },
+    {
+        "English": "milk",
+        "Finnish": "lypsää",
+        "Polish": "doić"
+    },
+    {
+        "English": "chop",
+        "Finnish": "hakata",
+        "Polish": "rąbać"
+    },
+    {
+        "English": "water",
+        "Finnish": "kastella",
+        "Polish": "lać; podlać"
+    },
+    {
+        "English": "ripen",
+        "Finnish": "kypsyä",
+        "Polish": "dojrzeć"
+    },
+    {
+        "English": "cook",
+        "Finnish": "valmistaa",
+        "Polish": "przyrządzić"
+    },
+    {
+        "English": "boil",
+        "Finnish": "keittää",
+        "Polish": "gotować"
+    },
+    {
+        "English": "bake",
+        "Finnish": "leipoa",
+        "Polish": "piec"
+    },
+    {
+        "English": "fry",
+        "Finnish": "paistaa",
+        "Polish": "piec; smażyć"
+    },
+    {
+        "English": "stir",
+        "Finnish": "hämmentää",
+        "Polish": "przemieszać"
+    },
+    {
+        "English": "knit",
+        "Finnish": "kutoa; neuloa",
+        "Polish": "dziać"
+    },
+    {
+        "English": "sew",
+        "Finnish": "ommella",
+        "Polish": "szyć"
+    },
+    {
+        "English": "dye",
+        "Finnish": "värjätä; värittää",
+        "Polish": "pofarbować"
+    },
+    {
+        "English": "clean",
+        "Finnish": "puhdistaa",
+        "Polish": "oczyścić"
+    },
+    {
+        "English": "wash",
+        "Finnish": "pestä",
+        "Polish": "prać"
+    },
+    {
+        "English": "wipe",
+        "Finnish": "pyyhkiä",
+        "Polish": "obetrzeć"
+    },
+    {
+        "English": "rinse",
+        "Finnish": "huuhtoa",
+        "Polish": "płukać"
+    },
+    {
+        "English": "sweep",
+        "Finnish": "pyyhkäistä",
+        "Polish": "zamiatać"
+    },
+    {
+        "English": "sweep",
+        "Finnish": "lakaista",
+        "Polish": "zamieść"
+    },
+    {
+        "English": "bath",
+        "Finnish": "kylpeä",
+        "Polish": "kąpać się"
+    },
+    {
+        "English": "wash",
+        "Finnish": "peseytyä",
+        "Polish": "myć się"
+    },
+    {
+        "English": "take off",
+        "Finnish": "riisua",
+        "Polish": "zdjąć"
+    },
+    {
+        "English": "put on",
+        "Finnish": "pukea ylleen",
+        "Polish": "włożyć"
+    },
+    {
+        "English": "get dressed",
+        "Finnish": "pukeutua",
+        "Polish": "ubrać się"
+    },
+    {
+        "English": "comb",
+        "Finnish": "kammata",
+        "Polish": "uczesać"
+    },
+    {
+        "English": "decorate",
+        "Finnish": "koristaa; kaunistaa",
+        "Polish": "ozdabiać"
+    },
+    {
+        "English": "say",
+        "Finnish": "sanoa",
+        "Polish": "powiedzieć"
+    },
+    {
+        "English": "speak",
+        "Finnish": "puhua",
+        "Polish": "mówić"
+    },
+    {
+        "English": "talk",
+        "Finnish": "keskustella",
+        "Polish": "mówić"
+    },
+    {
+        "English": "chat",
+        "Finnish": "jutella",
+        "Polish": "rozmawiać"
+    },
+    {
+        "English": "ask",
+        "Finnish": "kysyä",
+        "Polish": "zapytać"
+    },
+    {
+        "English": "request",
+        "Finnish": "pyytää",
+        "Polish": "prosić"
+    },
+    {
+        "English": "tell",
+        "Finnish": "kertoa",
+        "Polish": "opowiedzieć"
+    },
+    {
+        "English": "convey",
+        "Finnish": "ilmoittaa",
+        "Polish": "zawiadomić o"
+    },
+    {
+        "English": "name",
+        "Finnish": "kutsua; nimittää",
+        "Polish": "nazwać"
+    },
+    {
+        "English": "call",
+        "Finnish": "kutsua",
+        "Polish": "wołać"
+    },
+    {
+        "English": "brag",
+        "Finnish": "kerskailla",
+        "Polish": "chełpić się"
+    },
+    {
+        "English": "translate",
+        "Finnish": "kääntää",
+        "Polish": "tłumaczyć"
+    },
+    {
+        "English": "think",
+        "Finnish": "miettiä; ajatella",
+        "Polish": "myśleć"
+    },
+    {
+        "English": "believe",
+        "Finnish": "uskoa",
+        "Polish": "sądzić; wierzyć"
+    },
+    {
+        "English": "notice",
+        "Finnish": "huomata",
+        "Polish": "zauważyć"
+    },
+    {
+        "English": "recognize",
+        "Finnish": "tunnistaa",
+        "Polish": "poznać"
+    },
+    {
+        "English": "grasp",
+        "Finnish": "ymmärtää",
+        "Polish": "zrozumieć"
+    },
+    {
+        "English": "understand",
+        "Finnish": "ymmärtää",
+        "Polish": "rozumieć; dosłyszeć"
+    },
+    {
+        "English": "learn",
+        "Finnish": "oppia",
+        "Polish": "uczyć się"
+    },
+    {
+        "English": "know",
+        "Finnish": "tietää",
+        "Polish": "wiedzieć"
+    },
+    {
+        "English": "remember",
+        "Finnish": "muistaa",
+        "Polish": "przypomnieć sobie"
+    },
+    {
+        "English": "forget",
+        "Finnish": "unohtaa",
+        "Polish": "zapomnieć"
+    },
+    {
+        "English": "measure",
+        "Finnish": "mitata",
+        "Polish": "mierzyć"
+    },
+    {
+        "English": "count",
+        "Finnish": "laskea",
+        "Polish": "liczyć"
+    },
+    {
+        "English": "calculate",
+        "Finnish": "laskea",
+        "Polish": "rachować"
+    },
+    {
+        "English": "read",
+        "Finnish": "lukea",
+        "Polish": "czytać"
+    },
+    {
+        "English": "paint",
+        "Finnish": "maalata",
+        "Polish": "malować"
+    },
+    {
+        "English": "draw",
+        "Finnish": "piirtää; piirustaa",
+        "Polish": "rysować"
+    },
+    {
+        "English": "write",
+        "Finnish": "kirjoittaa",
+        "Polish": "pisać"
+    },
+    {
+        "English": "own",
+        "Finnish": "omistaa",
+        "Polish": "posiadać"
+    },
+    {
+        "English": "buy",
+        "Finnish": "ostaa",
+        "Polish": "kupić"
+    },
+    {
+        "English": "sell",
+        "Finnish": "myydä",
+        "Polish": "sprzedać"
+    },
+    {
+        "English": "pay for",
+        "Finnish": "maksaa",
+        "Polish": "zapłacić"
+    },
+    {
+        "English": "pay",
+        "Finnish": "maksaa",
+        "Polish": "płacić"
+    },
+    {
+        "English": "rule",
+        "Finnish": "hallita",
+        "Polish": "opanować"
+    },
+    {
+        "English": "endure",
+        "Finnish": "kestää",
+        "Polish": "znieść"
+    }
+]
