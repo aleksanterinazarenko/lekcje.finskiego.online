@@ -170,6 +170,7 @@ main {
 
 .flag {
     margin-right: 5px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .profile-pic {
