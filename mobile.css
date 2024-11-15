@@ -27,7 +27,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #21427a;
     font-weight: bold;
 }
 
@@ -87,6 +87,14 @@ footer {
 .container a {
     text-decoration: none;
     color: white;
+}
+
+.blog-post {
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 30px;
+    color: #f9f9f9ff;
+    border: 1px solid #f9f9f9ff;
 }
 
 .read-more {
