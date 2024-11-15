@@ -71,25 +71,21 @@
 
     <script>
 document.addEventListener('DOMContentLoaded', function() {
-
-    var pageTitle = document.title.trim();
-    console.log("Tytuł strony:", pageTitle);
-
     var navSelect = document.getElementById('nav-select');
-    var found = false;
+    var currentPage = window.location.pathname.split('/').pop();
+    
+    navSelect.options[0].textContent = "Czy język fiński jest trudny";
 
+    var optionFound = false;
     for (var i = 0; i < navSelect.options.length; i++) {
-        var optionText = navSelect.options[i].textContent.trim();
-        console.log("Opcja tekstowa:", optionText);
-        
-        if (pageTitle === optionText) {
+        if (navSelect.options[i].value === currentPage) {
             navSelect.selectedIndex = i;
-            found = true;
+            optionFound = true;
             break;
         }
     }
-
-    if (!found) {
+    
+    if (!optionFound) {
         navSelect.selectedIndex = -1;
     }
 
