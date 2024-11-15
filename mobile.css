@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: url('background.jpg') no-repeat right bottom fixed;
+    background-size: cover;
 }
 
 header {
