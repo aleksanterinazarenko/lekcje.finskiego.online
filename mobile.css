@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('background.jpg') no-repeat right fixed;
+    background: url('background.jpg') no-repeat center right fixed;
+    background-size: cover;
+    background-position: center center;
 }
 
 header {
