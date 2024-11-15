@@ -69,30 +69,34 @@
 
 <script src="script.js"></script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var navSelect = document.getElementById('nav-select');
-        var pageTitle = document.title.trim();
-    
-        var found = false;
-        for (var i = 0; i < navSelect.options.length; i++) {
-            var optionText = navSelect.options[i].textContent.trim();
-    
-            if (pageTitle === optionText) {
-                navSelect.selectedIndex = i;
-                found = true;
-                break;
-            }
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+
+    var pageTitle = document.title.trim();
+    console.log("Tytuł strony:", pageTitle);
+
+    var navSelect = document.getElementById('nav-select');
+    var found = false;
+
+    for (var i = 0; i < navSelect.options.length; i++) {
+        var optionText = navSelect.options[i].textContent.trim();
+        console.log("Opcja tekstowa:", optionText);
+        
+        if (pageTitle === optionText) {
+            navSelect.selectedIndex = i;
+            found = true;
+            break;
         }
-    
-        if (!found) {
-            navSelect.selectedIndex = -1;
-        }
-    
-        navSelect.addEventListener('change', function() {
-            window.location.href = this.value;
-        });
+    }
+
+    if (!found) {
+        navSelect.selectedIndex = -1;
+    }
+
+    navSelect.addEventListener('change', function() {
+        window.location.href = this.value;
     });
+});
     </script>
 
 </body>
