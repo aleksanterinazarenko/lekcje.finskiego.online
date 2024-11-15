@@ -1,0 +1,78 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('background.jpg') no-repeat center top fixed;
+}
+
+header {
+    font-family: 'Calibri', sans-serif;
+    background: white;
+    color: #21427a;
+    padding: 0.1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    margin-bottom: 0.1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: auto;
+    text-align: center;
+    color: #21427a;
+}
+
+h2 {
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    background: #21427a;
+    color: white;
+    margin-top: 30px;
+}
+
+.container {
+    padding: 0;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
