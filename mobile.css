@@ -4,8 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: url('background.jpg') no-repeat right fixed;
-    background-size: contain;
-    background-attachment: fixed;
+    background-size: 100vw 100vh;
 }
 
 header {
