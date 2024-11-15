@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('background.jpg') no-repeat right fixed;
+    background: url('background.jpg') no-repeat right center fixed;
     background-size: 100%;
 }
 
