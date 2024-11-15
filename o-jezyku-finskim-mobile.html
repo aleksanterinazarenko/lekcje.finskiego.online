@@ -74,14 +74,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     var navSelect = document.getElementById('nav-select');
     var currentPage = window.location.pathname.split('/').pop();
-    
+
     for (var i = 0; i < navSelect.options.length; i++) {
-        if (navSelect.options[i].value === currentPage) {
+        var optionValue = navSelect.options[i].value.split('/').pop();
+
+        if (optionValue === currentPage) {
             navSelect.selectedIndex = i;
             break;
         }
     }
-    
+
     navSelect.addEventListener('change', function() {
         window.location.href = this.value;
     });
