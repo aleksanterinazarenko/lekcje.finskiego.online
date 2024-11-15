@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lekcje Języka Fińskiego Online</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Czy język fiński jest trudny</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="Flag_of_Finland.png" alt="Logo" class="logo"></a>
-        <h1><a href="index.html" class="header-link">Lekcje Języka Fińskiego Online</a></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="o-jezyku-finskim.html">O języku fińskim</a></li>
-                <li><a href="o-mnie.html">O mnie</a></li>
-                <li><a href="oferta.html">Oferta</a></li>
-                <li><a href="mailto:aleksanterinazarenko@gmail.com"><img src="Gmail_icon.svg" class="media" width="18" height="auto" /></a><a href="mailto:aleksanterinazarenko@gmail.com">E-mail</a></li>
-                <li><a href="https://wa.me/48691849245"><img src="WhatsApp.svg" class="media" width="18" height="auto" /></a><a href="https://wa.me/48691849245">WhatsApp</a></li>
-                <li><a href="https://www.facebook.com/lekcje.finskiego.online/"><img src="2023_Facebook_icon.svg" class="media" width="18" height="auto" /></a><a href="https://www.facebook.com/lekcje.finskiego.online/">Facebook</a></li>
-                <li><a href="https://join.skype.com/invite/GhhblenFADC0"><img src="Skype_logo.svg" class="media" width="18" height="auto" /></a><a href="https://join.skype.com/invite/GhhblenFADC0">Skype</a></li>
-                <li><a href="materialy-do-nauki.html">Materiały do nauki</a></li>
-                <li><a href="">Puolaa suomalaisille</a></li>
-            </ul>
-        </nav>
+        <select id="nav-select" class="nav-select">
+            <option value="index.html">Lekcje Języka Fińskiego Online</option>
+            <option value="o-jezyku-finskim.html">O języku fińskim</option>
+            <option value="o-mnie.html">O mnie</option>
+            <option value="oferta.html">Oferta</option>
+            <option value="mailto:aleksanterinazarenko@gmail.com">E-mail</option>
+            <option value="https://wa.me/48691849245">WhatsApp</option>
+            <option value="https://www.facebook.com/lekcje.finskiego.online/">Facebook</option>
+            <option value="https://join.skype.com/invite/GhhblenFADC0">Skype</option>
+            <option value="materialy-do-nauki.html">Materiały do nauki</option>
+            <option value="">Puolaa suomalaisille</option>
+        </select>
     </header>
 
-    <main>
-        <div class="content">
+    <style>
+        .nav-select {
+        width: 100%;
+        padding: 10px;
+        font-family: "SUSE", sans-serif !important;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        background-color: #21427a;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .nav-select option {
+        padding: 10px;
+        background-color: #21427a;
+        color: #fff;
+    }
+        </style>
+
+<main>
+    <div class="container">
             <h2>Czy język fiński jest trudny?</h2><br>
             <p>Niektóre zestawienia zaliczają język fiński do grona TOP-5 najtrudniejszych języków świata <a href="https://vocal.media/education/top-5-hardest-languages-to-learn" target="_blank">[link]</a> obok tak egzotycznych języków jak arabski i mandaryński. Ile w tym prawdy? Oczywiście, trudność języka to pojęcie względne i zależy od wielu czynników. Obecność wspólnych lub podobnych cech w języku wyjściowym z pewnością ułatwia zadanie. Na przykład, Estończycy uczą się języka fińskiego szybciej, niż osoby posługujące się językami z innych grup, przede wszystkim za sprawą wspólnego słownictwa. Z kolei Węgrzy niekoniecznie mają łatwiej, mimo że język węgierski należy do tej samej rodziny językowej i wykazuje pewne podobieństwa na poziomie gramatyki.
                 <br><br>
@@ -43,37 +59,45 @@
                 <br><br>
                 Nauka każdego języka wymaga sporego wysiłku i język fiński nie jest wyjątkiem. To motywacja lub jej brak decyduje ostatecznie o trudności języka, gdyż ma żadnych barier, których nie jesteśmy w stanie pokonać, a ich ilość w języku fińskim, przynajmniej w mojej ocenie, nie odbiega od innych języków europejskich.</p>
         </div>
-    
-        <div class="gadget-container">
-            <div class="gadget">
-                <div class="english">
-                    <img src="gb.svg" class="flag" width="18" height="auto" />
-                    <span id="english"></span>
-                </div>
-                <div class="finnish">
-                    <img src="fi.svg" class="flag" width="18" height="auto" />
-                    <span id="finnish"></span>
-                </div>
-                <div class="polish">
-                    <img src="pl.svg" class="flag" width="18" height="auto" />
-                    <span id="polish"></span>
-                </div>
-            </div>
-            <button class="randomize-button" onclick="randomizeWord()">Losuj</button>
-            </div>
-        </div>
-    </main>
+</main>
 
-    <footer>
-        <p>&copy; 2024 Alexander Nazarenko. Wszelkie prawa zastrzeżone.</p>
-    </footer>
+<footer>
+    <a href="mailto:aleksanterinazarenko@outlook.com" style="color: white; text-decoration: none;">&copy; 2024 Aleksanteri Nazarenko</a>
+</footer>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
-    <script>
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
-            window.location.href = "czy-jezyk-finski-jest-trudny-mobile.html";
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.nav-list a');
+    const currentPath = window.location.pathname.split("/").pop();
+  
+    navLinks.forEach(link => {
+        const linkPath = link.getAttribute('href');
+        if (linkPath === currentPath) {
+            link.classList.add('active');
         }
+    });
+  });
     </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var navSelect = document.getElementById('nav-select');
+    var currentPage = window.location.pathname.split('/').pop();
+    
+    for (var i = 0; i < navSelect.options.length; i++) {
+        if (navSelect.options[i].value === currentPage) {
+            navSelect.selectedIndex = i;
+            break;
+        }
+    }
+    
+    navSelect.addEventListener('change', function() {
+        window.location.href = this.value;
+    });
+});
+    </script>
+
 </body>
 </html>

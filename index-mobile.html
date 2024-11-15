@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekcje Języka Fińskiego Online</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <select id="nav-select" class="nav-select">
+            <option value="index.html">Lekcje Języka Fińskiego Online</option>
+            <option value="o-jezyku-finskim.html">O języku fińskim</option>
+            <option value="o-mnie.html">O mnie</option>
+            <option value="oferta.html">Oferta</option>
+            <option value="mailto:aleksanterinazarenko@gmail.com">E-mail</option>
+            <option value="https://wa.me/48691849245">WhatsApp</option>
+            <option value="https://www.facebook.com/lekcje.finskiego.online/">Facebook</option>
+            <option value="https://join.skype.com/invite/GhhblenFADC0">Skype</option>
+            <option value="materialy-do-nauki.html">Materiały do nauki</option>
+            <option value="">Puolaa suomalaisille</option>
+        </select>
+    </header>
+
+    <style>
+        .nav-select {
+        width: 100%;
+        padding: 10px;
+        font-family: "SUSE", sans-serif !important;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        background-color: #21427a;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .nav-select option {
+        padding: 10px;
+        background-color: #21427a;
+        color: #fff;
+    }
+        </style>
+
+<main>
+    <h1>Witaj na stronie Lekcji Języka Fińskiego Online!</h1>
+        <p>Zapraszamy do zapoznania się z ofertą i blogiem.</p>
+
+        <div class="container">
+            <h2>Skąd pochodzi język fiński?</h2>
+            <p>Fiński, podobnie jak estoński, karelski oraz mniej znane w Polsce języki ingryjski, wepski i wymarły liwoński, należy do bałtycko-fińskiej podgrupy języków uralskich. [...]</p>
+            <div class="parent-container">
+            <a href="o-jezyku-finskim.html" class="read-more">Czytaj więcej</a>
+        </div>
+
+            <h2>Czy język fiński jest trudny?</h2>
+            <p>Niektóre zestawienia zaliczają język fiński do grona TOP-5 najtrudniejszych języków świata <a href="https://vocal.media/education/top-5-hardest-languages-to-learn" target="_blank">[link]</a> obok tak egzotycznych języków jak arabski i mandaryński. Ile w tym prawdy? [...]</p>
+            <div class="parent-container">
+            <a href="czy-jezyk-finski-jest-trudny.html" class="read-more">Czytaj więcej</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <a href="mailto:aleksanterinazarenko@outlook.com" style="color: white; text-decoration: none;">&copy; 2024 Aleksanteri Nazarenko</a>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.nav-list a');
+    const currentPath = window.location.pathname.split("/").pop();
+  
+    navLinks.forEach(link => {
+        const linkPath = link.getAttribute('href');
+        if (linkPath === currentPath) {
+            link.classList.add('active');
+        }
+    });
+  });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var navSelect = document.getElementById('nav-select');
+    var currentPage = window.location.pathname.split('/').pop();
+    
+    for (var i = 0; i < navSelect.options.length; i++) {
+        if (navSelect.options[i].value === currentPage) {
+            navSelect.selectedIndex = i;
+            break;
+        }
+    }
+    
+    navSelect.addEventListener('change', function() {
+        window.location.href = this.value;
+    });
+});
+    </script>
+
+</body>
+</html>

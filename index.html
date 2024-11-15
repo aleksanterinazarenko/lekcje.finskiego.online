@@ -33,7 +33,7 @@
     </header>
 
     <main>
-            <div class="content">
+        <div class="content">
             <h2>Witaj na stronie Lekcji Języka Fińskiego Online!</h2>
             <p>Zapraszamy do zapoznania się z ofertą i blogiem.</p>
 
@@ -74,5 +74,11 @@
     </footer>
 
     <script src="script.js"></script>
+
+    <script>
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            window.location.href = "index-mobile.html";
+        }
+    </script>
 </body>
 </html>
