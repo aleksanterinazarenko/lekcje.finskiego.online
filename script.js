@@ -51,12 +51,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
   });
-
-window.addEventListener('load', function() {
-
-    document.body.style.backgroundSize = 'cover';
-
-    window.addEventListener('scroll', function() {
-        document.body.style.backgroundSize = 'cover';
-    });
-});
