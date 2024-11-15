@@ -1,39 +1,53 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Witaj na stronie Lekcji Języka Fińskiego Online! Zapraszamy do zapoznania się z ofertą i blogiem.">
-    <meta name="keywords" content="język fiński, lekcje fińskiego, suomi, suomen kieli, Finland, Finlandia, szkoła, nauka">
-    <meta name="author" content="Alexander Nazarenko">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lekcje Języka Fińskiego Online</title>
+    <title>Oferta</title>
+    <link rel="stylesheet" href="mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="Flag_of_Finland.png" alt="Logo" class="logo"></a>
-        <h1><a href="index.html" class="header-link">Lekcje Języka Fińskiego Online</a></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="o-jezyku-finskim.html">O języku fińskim</a></li>
-                <li><a href="o-mnie.html">O mnie</a></li>
-                <li><a href="oferta.html">Oferta</a></li>
-                <li><a href="mailto:aleksanterinazarenko@gmail.com"><img src="Gmail_icon.svg" class="media" width="18" height="auto" /></a><a href="mailto:aleksanterinazarenko@gmail.com">E-mail</a></li>
-                <li><a href="https://wa.me/48691849245"><img src="WhatsApp.svg" class="media" width="18" height="auto" /></a><a href="https://wa.me/48691849245">WhatsApp</a></li>
-                <li><a href="https://www.facebook.com/lekcje.finskiego.online/"><img src="2023_Facebook_icon.svg" class="media" width="18" height="auto" /></a><a href="https://www.facebook.com/lekcje.finskiego.online/">Facebook</a></li>
-                <li><a href="https://join.skype.com/invite/GhhblenFADC0"><img src="Skype_logo.svg" class="media" width="18" height="auto" /></a><a href="https://join.skype.com/invite/GhhblenFADC0">Skype</a></li>
-                <li><a href="materialy-do-nauki.html">Materiały do nauki</a></li>
-                <li><a href="">Puolaa suomalaisille</a></li>
-            </ul>
-        </nav>
+        <select id="nav-select" class="nav-select">
+            <option value="index-mobile.html">Strona główna</option>
+            <option value="o-jezyku-finskim-mobile.html">O języku fińskim</option>
+            <option value="o-mnie-mobile.html">O mnie</option>
+            <option value="oferta-mobile.html">Oferta</option>
+            <option value="mailto:aleksanterinazarenko@gmail.com">E-mail</option>
+            <option value="https://wa.me/48691849245">WhatsApp</option>
+            <option value="https://www.facebook.com/lekcje.finskiego.online/">Facebook</option>
+            <option value="https://join.skype.com/invite/GhhblenFADC0">Skype</option>
+            <option value="materialy-do-nauki-mobile.html">Materiały do nauki</option>
+            <option value="">Puolaa suomalaisille</option>
+        </select>
     </header>
 
-    <main>
-        <div class="content">
+    <style>
+        .nav-select {
+        width: 100%;
+        padding: 10px;
+        font-family: "SUSE", sans-serif !important;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        background-color: #21427a;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .nav-select option {
+        padding: 10px;
+        background-color: #21427a;
+        color: #fff;
+    }
+        </style>
+
+<main>
+    <h1><a href="index.html" class="header-link">Lekcje Języka Fińskiego Online</a></h1>
+
+        <div class="container">
             <h2>Materiały do nauki</h2><br>
             <p>Wikipedia:<br><br>
                 ➮ <a href="https://pl.wikipedia.org/wiki/Gramatyka_j%C4%99zyka_fi%C5%84skiego">Gramatyka języka fińskiego</a><br>
@@ -88,37 +102,31 @@
                 ➮ <a href="https://finnlectura.fi/oppimateriaalit/suomi-toisena-kielena/tarkista-tasta/">Tarkista tästä - Suomen sanojen rektioita suomea vieraana kielenä opiskeleville</a><br>
             </p>
         </div>
+</main>
+
+<footer>
+    <a href="mailto:aleksanterinazarenko@outlook.com" style="color: white; text-decoration: none;">&copy; 2024 Aleksanteri Nazarenko</a>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var navSelect = document.getElementById('nav-select');
+    var currentPage = window.location.pathname.split('/').pop();
     
-        <div class="gadget-container">
-            <div class="gadget">
-                <div class="english">
-                    <img src="gb.svg" class="flag" width="18" height="auto" />
-                    <span id="english"></span>
-                </div>
-                <div class="finnish">
-                    <img src="fi.svg" class="flag" width="18" height="auto" />
-                    <span id="finnish"></span>
-                </div>
-                <div class="polish">
-                    <img src="pl.svg" class="flag" width="18" height="auto" />
-                    <span id="polish"></span>
-                </div>
-            </div>
-            <button class="randomize-button" onclick="randomizeWord()">Losuj</button>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Alexander Nazarenko. Wszelkie prawa zastrzeżone.</p>
-    </footer>
-
-    <script src="script.js"></script>
-
-    <script>
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
-            window.location.href = "materialy-do-nauki-mobile.html";
+    for (var i = 0; i < navSelect.options.length; i++) {
+        if (navSelect.options[i].value === currentPage) {
+            navSelect.selectedIndex = i;
+            break;
         }
+    }
+    
+    navSelect.addEventListener('change', function() {
+        window.location.href = this.value;
+    });
+});
     </script>
+
 </body>
 </html>
