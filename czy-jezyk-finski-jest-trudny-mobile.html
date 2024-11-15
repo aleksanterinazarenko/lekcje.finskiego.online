@@ -68,19 +68,7 @@
 <script src="script.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('.nav-list a');
-    const currentPath = window.location.pathname.split("/").pop();
-  
-    navLinks.forEach(link => {
-        const linkPath = link.getAttribute('href');
-        if (linkPath === currentPath) {
-            link.classList.add('active');
-        }
-    });
-  });
-
-    document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     var navSelect = document.getElementById('nav-select');
     var currentPage = window.location.pathname.split('/').pop();
     
