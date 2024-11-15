@@ -11,6 +11,7 @@
 <body>
     <header>
         <select id="nav-select" class="nav-select">
+            <option disabled selected>Menu</option>
             <option value="index-mobile.html">Strona główna</option>
             <option value="o-jezyku-finskim-mobile.html">O języku fińskim</option>
             <option value="o-mnie-mobile.html">O mnie</option>
@@ -69,31 +70,23 @@
 
 <script src="script.js"></script>
 
-    <script>
-document.addEventListener('DOMContentLoaded', function() {
-    var navSelect = document.getElementById('nav-select');
-    var currentPage = window.location.pathname.split('/').pop();
-    
-    navSelect.options[0].textContent = "Czy język fiński jest trudny";
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var navSelect = document.getElementById('nav-select');
+        var currentPage = window.location.pathname.split('/').pop();
 
-    var optionFound = false;
-    for (var i = 0; i < navSelect.options.length; i++) {
-        if (navSelect.options[i].value === currentPage) {
-            navSelect.selectedIndex = i;
-            optionFound = true;
-            break;
+        for (var i = 0; i < navSelect.options.length; i++) {
+            if (navSelect.options[i].value === currentPage) {
+                navSelect.selectedIndex = i;
+                break;
+            }
         }
-    }
-    
-    if (!optionFound) {
-        navSelect.selectedIndex = -1;
-    }
 
-    navSelect.addEventListener('change', function() {
-        window.location.href = this.value;
+        navSelect.addEventListener('change', function() {
+            window.location.href = this.value;
+        });
     });
-});
-    </script>
+</script>
 
 </body>
 </html>
