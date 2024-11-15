@@ -10,7 +10,7 @@ header {
     font-family: "SUSE", sans-serif;
     background: white;
     color: #21427a;
-    padding: 0.1rem;
+    padding: 0.1;
 }
 
 nav ul {
@@ -37,6 +37,7 @@ p {
     padding-right: 20px;
     padding-left: 20px;
     text-align: left;
+    font-family: "SUSE", sans-serif;
   }
 
   h1 {
@@ -49,8 +50,8 @@ p {
 h2 {
     font-family: "SUSE", sans-serif;
     font-size: 20px;
+    margin-top: 50px;
     font-weight: normal;
-    font-style: italic;
     text-align: center;
     color: white;
 }
