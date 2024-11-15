@@ -72,16 +72,23 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var navSelect = document.getElementById('nav-select');
-        
-        var pageTitle = document.title;
-        
+        var pageTitle = document.title.trim();
+    
+        var found = false;
         for (var i = 0; i < navSelect.options.length; i++) {
-            if (navSelect.options[i].text === pageTitle) {
+            var optionText = navSelect.options[i].textContent.trim();
+    
+            if (pageTitle === optionText) {
                 navSelect.selectedIndex = i;
+                found = true;
                 break;
             }
         }
-        
+    
+        if (!found) {
+            navSelect.selectedIndex = -1;
+        }
+    
         navSelect.addEventListener('change', function() {
             window.location.href = this.value;
         });
