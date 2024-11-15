@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    font-family: 'Calibri', sans-serif;
+    font-family: "SUSE", sans-serif;
     background: white;
     color: #21427a;
     padding: 0.1rem;
@@ -40,14 +40,14 @@ p {
   }
 
   h1 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: "SUSE", sans-serif;
     font-size: auto;
     text-align: center;
     color: #21427a;
 }
 
 h2 {
-    font-family: 'Calibri', sans-serif;
+    font-family: "SUSE", sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-style: italic;
@@ -56,7 +56,7 @@ h2 {
 }
 
 footer {
-    font-family: 'Calibri', sans-serif;
+    font-family: "SUSE", sans-serif;
     text-align: center;
     padding: 1rem;
     background: #21427a;
