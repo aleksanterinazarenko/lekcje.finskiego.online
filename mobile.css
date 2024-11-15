@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('background.jpg') no-repeat right bottom fixed;
+    background: url('background.jpg') no-repeat right fixed;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100%;
