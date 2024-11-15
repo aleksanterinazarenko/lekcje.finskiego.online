@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     background: url('background.jpg') no-repeat right bottom fixed;
     background-size: cover;
+    background-attachment: local;
 }
 
 header {
