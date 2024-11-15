@@ -1,5 +1,5 @@
 body {
-    font-family: 'Calibri', sans-serif;
+    font-family: "SUSE", sans-serif !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    font-family: "SUSE", sans-serif;
+    font-family: "SUSE", sans-serif !important;
     background: white;
     color: #21427a;
     padding: 0.1;
@@ -37,18 +37,18 @@ p {
     padding-right: 20px;
     padding-left: 20px;
     text-align: left;
-    font-family: "SUSE", sans-serif;
+    font-family: "SUSE", sans-serif !important;
   }
 
   h1 {
-    font-family: "SUSE", sans-serif;
+    font-family: "SUSE", sans-serif !important;
     font-size: auto;
     text-align: center;
     color: #21427a;
 }
 
 h2 {
-    font-family: "SUSE", sans-serif;
+    font-family: "SUSE", sans-serif !important;
     font-size: 20px;
     margin-top: 50px;
     font-weight: normal;
@@ -57,7 +57,7 @@ h2 {
 }
 
 footer {
-    font-family: "SUSE", sans-serif;
+    font-family: "SUSE", sans-serif !important;
     text-align: center;
     padding: 1rem;
     background: #21427a;
