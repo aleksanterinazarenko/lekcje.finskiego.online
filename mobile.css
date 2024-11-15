@@ -6,6 +6,8 @@ body {
     background: url('background.jpg') no-repeat right bottom fixed;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
