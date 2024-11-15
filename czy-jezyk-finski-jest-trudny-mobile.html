@@ -70,33 +70,22 @@
 <script src="script.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('.nav-list a');
-    const currentPath = window.location.pathname.split("/").pop();
-  
-    navLinks.forEach(link => {
-        const linkPath = link.getAttribute('href');
-        if (linkPath === currentPath) {
-            link.classList.add('active');
-        }
-    });
-  });
-
     document.addEventListener('DOMContentLoaded', function() {
-    var navSelect = document.getElementById('nav-select');
-    var currentPage = window.location.pathname.split('/').pop();
-    
-    for (var i = 0; i < navSelect.options.length; i++) {
-        if (navSelect.options[i].value === currentPage) {
-            navSelect.selectedIndex = i;
-            break;
+        var navSelect = document.getElementById('nav-select');
+        
+        var pageTitle = document.title;
+        
+        for (var i = 0; i < navSelect.options.length; i++) {
+            if (navSelect.options[i].text === pageTitle) {
+                navSelect.selectedIndex = i;
+                break;
+            }
         }
-    }
-    
-    navSelect.addEventListener('change', function() {
-        window.location.href = this.value;
+        
+        navSelect.addEventListener('change', function() {
+            window.location.href = this.value;
+        });
     });
-});
     </script>
 
 </body>
