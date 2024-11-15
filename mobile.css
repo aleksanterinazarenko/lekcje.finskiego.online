@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: blue;
     background: url('') no-repeat right bottom fixed;
     background-size: cover;
 }
