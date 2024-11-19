@@ -8,7 +8,7 @@ body {
     color: #f9f9f9ff;
     background-color: #ADD8E6;
     background: url('background.png') no-repeat right;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 }
 
 header {
