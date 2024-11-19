@@ -69,5 +69,3 @@ function setBackground() {
 }
 
 window.addEventListener("load", setBackground);
-
-window.addEventListener("resize", setBackground);
