@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('background.png') no-repeat right;
+    background: url('background.png') no-repeat right bottom;
 }
 
 header {
