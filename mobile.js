@@ -55,9 +55,13 @@ document.addEventListener("DOMContentLoaded", function() {
 function setBackground() {
     const windowHeight = window.innerHeight;
 
-    document.body.style.backgroundImage = "url('background.png')";
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundPosition = "right bottom";
-    document.body.style.backgroundSize = `auto ${windowHeight}px`;
-    document.body.style.backgroundAttachment = "fixed";
-}
+  document.body.style.backgroundImage = "url('background.png')";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundPosition = "right";
+document.body.style.backgroundSize = `auto ${screen.height}px`;
+document.body.style.backgroundAttachment = "fixed";
+
+document.body.style.overflowX = "hidden";
+
+document.body.style.minHeight = `${windowHeight}px`;
+  }
