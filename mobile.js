@@ -52,8 +52,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-document.body.style.backgroundImage = "url('background.png')";
-document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundPosition = "right";
-document.body.style.backgroundSize = `auto ${screen.height}px`;
-document.body.style.backgroundAttachment = "fixed";
+function updateBackground() {
+    document.body.style.backgroundImage = "url('background.png')";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundPosition = "right bottom";
+    document.body.style.backgroundSize = `auto ${window.innerHeight}px`;
+}
+
+window.addEventListener('resize', updateBackground);
+updateBackground();
