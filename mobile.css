@@ -144,3 +144,14 @@ footer {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+@font-face {
+    font-family: 'Times';
+    src: url('times-new-roman-italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+em, i {
+    font-family: "Times", serif;
+    font-style: italic;
+}
