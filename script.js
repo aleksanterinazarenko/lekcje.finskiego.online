@@ -51,8 +51,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
   });
-
-  document.body.style.backgroundImage = "url('background.jpg')";
-document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundPosition = "right top";
-document.body.style.backgroundSize = `auto ${screen.height}px`;

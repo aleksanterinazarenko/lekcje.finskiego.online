@@ -135,7 +135,7 @@ footer {
 }
 
 .profile-pic {
-    width: 90%;
+    width: auto;
     height: auto;
     display: block;
     margin-left: auto;
