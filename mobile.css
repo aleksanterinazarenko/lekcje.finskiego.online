@@ -2,6 +2,8 @@ body {
     font-family: "SUSE", sans-serif !important;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
     box-sizing: border-box;
     background: url('background.png') no-repeat right;
     background-size: cover;
