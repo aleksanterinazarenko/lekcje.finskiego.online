@@ -52,12 +52,16 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-function updateBackground() {
-    document.body.style.backgroundImage = "url('background.png')";
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundPosition = "right bottom";
-    document.body.style.backgroundSize = `auto ${window.innerHeight}px`;
+function setBodyHeight() {
+    document.body.style.height = `${window.innerHeight}px`;
 }
 
-window.addEventListener('resize', updateBackground);
-updateBackground();
+setBodyHeight();
+
+window.addEventListener('resize', setBodyHeight);
+
+  document.body.style.backgroundImage = "url('background.png')";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundPosition = "right";
+document.body.style.backgroundSize = `auto ${screen.height}px`;
+document.body.style.backgroundAttachment = "fixed";
