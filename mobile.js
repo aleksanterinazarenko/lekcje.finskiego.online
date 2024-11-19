@@ -52,6 +52,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
+function setBodyHeight() {
+    document.body.style.height = `${window.innerHeight}px`;
+}
+
+setBodyHeight();
+
+window.addEventListener('resize', setBodyHeight);
+
   document.body.style.backgroundImage = "url('background.png')";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundPosition = "right";
