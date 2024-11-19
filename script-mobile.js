@@ -54,5 +54,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.body.style.backgroundImage = "url('background.png')";
 document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundPosition = "right bottom";
+document.body.style.backgroundPosition = "center";
 document.body.style.backgroundSize = `auto ${screen.height}px`;
