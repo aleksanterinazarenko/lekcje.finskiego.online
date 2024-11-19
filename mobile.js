@@ -52,12 +52,19 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-function setBodyHeight() {
-    document.body.style.height = `${window.innerHeight}px`;
+function createFixedBackground() {
+    const backgroundDiv = document.createElement("div");
+    backgroundDiv.style.position = "fixed";
+    backgroundDiv.style.top = "0";
+    backgroundDiv.style.left = "0";
+    backgroundDiv.style.width = "100vw";
+    backgroundDiv.style.height = "100vh";
+    backgroundDiv.style.backgroundImage = "url('background.png')";
+    backgroundDiv.style.backgroundRepeat = "no-repeat";
+    backgroundDiv.style.backgroundPosition = "right top";
+    backgroundDiv.style.backgroundSize = "auto 100%";
+    backgroundDiv.style.zIndex = "-1";
+    document.body.prepend(backgroundDiv);
 }
 
-  document.body.style.backgroundImage = "url('background.png')";
-document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundPosition = "right";
-document.body.style.backgroundSize = `auto ${screen.height}px`;
-document.body.style.backgroundAttachment = "fixed";
+createFixedBackground();
