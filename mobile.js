@@ -55,17 +55,19 @@ document.addEventListener("DOMContentLoaded", function() {
 function setBackground() {
     const windowHeight = window.innerHeight;
 
-  document.body.style.backgroundImage = "url('background.png')";
-document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundPosition = "right";
-document.body.style.backgroundSize = `auto ${screen.height}px`;
-document.body.style.backgroundAttachment = "fixed";
+    document.body.style.backgroundImage = "url('background.png')";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundPosition = "right top";
+    document.body.style.backgroundSize = `auto ${windowHeight}px`;
+    document.body.style.backgroundAttachment = "fixed";
 
-document.body.style.overflowX = "hidden";
 
-document.body.style.minHeight = `${windowHeight}px`;
-  }
+    document.body.style.minHeight = `${windowHeight}px`;
 
-  window.addEventListener("load", setBackground);
+    document.documentElement.style.height = "100%";
+    document.body.style.height = "100%";
+}
 
-  window.addEventListener("resize", setBackground);
+window.addEventListener("load", setBackground);
+
+window.addEventListener("resize", setBackground);
