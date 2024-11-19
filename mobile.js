@@ -61,7 +61,7 @@ function createFixedBackground() {
     backgroundDiv.style.height = "100vh";
     backgroundDiv.style.backgroundImage = "url('background.png')";
     backgroundDiv.style.backgroundRepeat = "no-repeat";
-    backgroundDiv.style.backgroundPosition = "right top";
+    backgroundDiv.style.backgroundPosition = "right bottom";
     backgroundDiv.style.backgroundSize = "auto 100%";
     backgroundDiv.style.zIndex = "-1";
     document.body.prepend(backgroundDiv);
