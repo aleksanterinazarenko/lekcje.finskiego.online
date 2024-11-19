@@ -155,5 +155,5 @@ footer {
 em, i {
     font-family: "Times New Roman", serif !important;
     font-style: italic;
-    font-size: calc(100% + 10px);
+    font-size: calc(100% + 1pt);
 }
