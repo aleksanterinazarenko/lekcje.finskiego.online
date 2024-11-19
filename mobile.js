@@ -60,12 +60,4 @@ function setBackground() {
     document.body.style.backgroundPosition = "right bottom";
     document.body.style.backgroundSize = `auto ${windowHeight}px`;
     document.body.style.backgroundAttachment = "fixed";
-
-
-    document.body.style.minHeight = `${windowHeight}px`;
-
-    document.documentElement.style.height = "100%";
-    document.body.style.height = "100%";
 }
-
-window.addEventListener("load", setBackground);
