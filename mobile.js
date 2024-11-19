@@ -56,3 +56,4 @@ document.addEventListener("DOMContentLoaded", function() {
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundPosition = "right";
 document.body.style.backgroundSize = `auto ${screen.height}px`;
+document.body.style.backgroundAttachment = "fixed";
