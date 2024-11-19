@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  document.body.style.backgroundImage = "url('background.jpg')";
+  document.body.style.backgroundImage = "url('background.png')";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundPosition = "right bottom";
 document.body.style.backgroundSize = `auto ${screen.height}px`;
