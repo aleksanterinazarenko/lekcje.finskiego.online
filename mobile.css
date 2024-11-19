@@ -1,17 +1,14 @@
 body {
-    font-family: "SUSE", sans-serif !important;
+    font-family: 'Calibri', sans-serif !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('background.jpg') no-repeat right bottom fixed;
-    background-size: cover;
 }
 
 header {
-    font-family: "SUSE", sans-serif !important;
-    background: white;
-    color: #21427a;
-    padding: 0.1;
+    background: #333;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -28,7 +25,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #21427a;
+    color: #333;
     font-weight: bold;
 }
 
@@ -36,94 +33,143 @@ nav ul li a {
     text-decoration: underline;
 }
 
-p {
-    color: white;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-    text-align: left;
-    font-family: "SUSE", sans-serif !important;
-  }
-
-  h1 {
-    font-family: "SUSE", sans-serif !important;
-    font-size: 24px;
-    text-align: center;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-
-h2 {
-    font-family: "SUSE", sans-serif !important;
-    font-size: 20px;
-    margin-top: 20px;
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/calibri-regular.ttf') format('truetype');
     font-weight: normal;
-    text-align: center;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-style: normal;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/calibri-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
-footer {
-    font-family: "SUSE", sans-serif !important;
-    text-align: center;
-    padding: 1rem;
-    background: #21427a;
-    color: white;
-    margin-top: 30px;
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/calibri-bold-italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/calibri-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 .container {
-    padding: 0;
+    padding: 10px;
     border-radius: 5px;
     width: 100%;
-    margin-top: 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+textarea {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    min-height: 150px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Calibri', sans-serif !important;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.container a {
-    text-decoration: none;
-    color: white;
+header {
+    background: #333;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.blog-post {
-    border-radius: 10px;
-    margin: 20px;
-    margin-top: 30px;
-    color: #f9f9f9ff;
-    border: 1px solid #f9f9f9ff;
+.container {
+width: calc(100% - 200px);
+margin: 0 auto;
 }
 
-.read-more {
-    display: inline-block;
-    margin: 15px;
-    text-decoration: none;
-    color: #f9f9f9ff;
-    border: 1px solid #f9f9f9ff;
-    padding: 5px 10px;
+textarea {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    resize: none;
+    min-height: 150px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
-.parent-container {
-    text-align: center;
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-.profile-pic {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    border-radius: 10px;
+main {
+padding: 20px;
+font-family: 'Calibri', sans-serif !important;
+font-size: 20px;
+text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+p {
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+margin: 10px 0;
+padding-right: 20px;
+padding-left: 20px;
+text-align: left;
+}
+
+h1, h2 {
+font-family: 'Permanent Marker', cursive;
+}
+
+.table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: none;
+}
+
+.table td {
+vertical-align: top;
+position: relative;
+}
+
+.table h2 {
+font-size: 20px;
+font-weight: normal;
+text-align: center;
+margin: 0 0 20px;
+font-family: 'Calibri', sans-serif !important;
+}
+
+.table p {
+margin: 0;
+line-height: 1.5;
+}
