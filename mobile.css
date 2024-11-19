@@ -152,6 +152,6 @@ footer {
 }
 
 em, i {
-    font-family: "Times", serif;
+    font-family: "Times", serif !important;
     font-style: italic;
 }
