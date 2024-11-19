@@ -57,7 +57,7 @@ function setBackground() {
 
     document.body.style.backgroundImage = "url('background.png')";
     document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundPosition = "right top";
+    document.body.style.backgroundPosition = "right bottom";
     document.body.style.backgroundSize = `auto ${windowHeight}px`;
     document.body.style.backgroundAttachment = "fixed";
 
