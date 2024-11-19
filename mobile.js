@@ -53,15 +53,19 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 function setBodyHeight() {
-    document.body.style.height = `${window.innerHeight}px`;
+    const windowHeight = window.innerHeight;
+
+    document.body.style.height = `${windowHeight}px`;
+    document.body.style.overflow = "hidden";
 }
 
 setBodyHeight();
 
-window.addEventListener('resize', setBodyHeight);
+window.addEventListener("resize", setBodyHeight);
 
-  document.body.style.backgroundImage = "url('background.png')";
+// Ustawienia dla tła
+document.body.style.backgroundImage = "url('background.png')";
 document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundPosition = "right";
-document.body.style.backgroundSize = `auto ${screen.height}px`;
-document.body.style.backgroundAttachment = "fixed";
+document.body.style.backgroundPosition = "right top";
+document.body.style.backgroundSize = `auto 100%`;
+document.body.style.backgroundAttachment = "scroll";
