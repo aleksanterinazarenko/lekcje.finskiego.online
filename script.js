@@ -51,3 +51,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
   });
+
+  document.body.style.backgroundSize = `${screen.width}px ${screen.height}px`;

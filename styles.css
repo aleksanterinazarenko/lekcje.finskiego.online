@@ -7,8 +7,8 @@ body {
     font-family: "SUSE", sans-serif;
     color: #f9f9f9ff;
     background-color: #ADD8E6;
-    background: url('background.jpg') no-repeat center top fixed;
-    background-size: cover;
+    background: url('background.png') no-repeat center top fixed;
+    background-size: 100% 100%;
 }
 
 header {
