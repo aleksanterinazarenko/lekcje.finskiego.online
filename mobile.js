@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-function createFixedBackground() {
+  function createFixedBackground() {
     const backgroundDiv = document.createElement("div");
     backgroundDiv.style.position = "fixed";
     backgroundDiv.style.top = "0";

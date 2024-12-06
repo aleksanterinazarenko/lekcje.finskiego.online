@@ -7,13 +7,13 @@ body {
     font-family: "SUSE", sans-serif;
     color: #f9f9f9ff;
     background-color: #ADD8E6;
-    background: url('background.png') no-repeat center top fixed;
+    background: url('background.png') no-repeat center center fixed;
     background-size: cover;
 }
 
 header {
     padding: 25px;
-    border-bottom: 1px solid #f9f9f9ff;
+    border-bottom: 1px solid white;
     text-align: center;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
@@ -65,7 +65,7 @@ main {
     flex: 3;
     padding: 50px;
     margin-top: 50px;
-    border: 1px solid #f9f9f9ff;
+    border: 1px solid white;
     border-radius: 10px;
 }
 
@@ -92,7 +92,7 @@ main {
     padding: 30px;
     margin-top: 50px;
     color: #f9f9f9ff;
-    border: 1px solid #f9f9f9ff;
+    border: 1px solid white;
 }
 
 .blog-post p {
@@ -109,8 +109,8 @@ main {
     display: inline-block;
     margin-top: 25px;
     text-decoration: none;
-    color: #f9f9f9ff;
-    border: 1px solid #f9f9f9ff;
+    color: white;
+    border: 1px solid white;
     padding: 5px 10px;
     border-radius: 5px;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
@@ -132,7 +132,7 @@ main {
 .gadget {
     width: 300px;
     height: 300px;
-    border: 1px solid #f9f9f9ff;
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -158,8 +158,8 @@ main {
     display: inline-block;
     margin-top: 25px;
     text-decoration: none;
-    color: #f9f9f9ff;
-    border: 1px solid #f9f9f9ff;
+    color: white;
+    border: 1px solid white;
     padding: 5px 10px;
     border-radius: 5px;
     background-color: transparent;
@@ -190,7 +190,7 @@ main {
 }
 
 footer {
-    border-top: 1px solid #f9f9f9ff;
+    border-top: 1px solid white;
     color: #f9f9f9ff;
     text-align: center;
     padding: 15px;
