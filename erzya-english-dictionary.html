@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="Erzya language, ersän kieli, эрзянский язык, эрзянь кель, dictionary, sanakirja, словарь, валкс">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erzya-English dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 768px)">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="dictionaries.html">Dictionaries</a></li>
+                <li><a href="grammar.html">Grammar</a></li>
+                <li><a href="transliteration-tool.html">Transliteration tool</a></li>
+                <li><a href="about-the-spelling.html">About the spelling</a></li>
+                <li><a href="sources.html">Sources</a></li>
+                <li><a href="other.html">Other</a></li>
+                <li><a href="mailto:aleksanterinazarenko@outlook.com">Contact</a></li>
+                <li>
+                    <a href="/fi/english-erzya-dictionary.html">
+                        <img src="fi.svg" style="width: 20px; height: auto;">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><a href="/learnerzya/index.html">Learn Erzya</a></h1>
+
+        <div class="container">
+            <h2>Erzya-English Dictionary</h2>
+        </div>
+        <div class="dictionary">
+            <select id="languageSelector">
+                <option value="latin">Latin</option>
+                <option value="cyrillic">Cyrillic</option>
+            </select>
+
+            <input id="searchInput" placeholder="Search for a word ..." type="text" autocomplete="off" />
+            <div id="diacriticButtons">
+                <button type="button" class="diacritic-btn">ć</button>
+                <button type="button" class="diacritic-btn">č</button>
+                <button type="button" class="diacritic-btn">ď</button>
+                <button type="button" class="diacritic-btn">ë</button>
+                <button type="button" class="diacritic-btn">ï</button>
+                <button type="button" class="diacritic-btn">ľ</button>
+                <button type="button" class="diacritic-btn">ń</button>
+                <button type="button" class="diacritic-btn">ŕ</button>
+                <button type="button" class="diacritic-btn">ś</button>
+                <button type="button" class="diacritic-btn">š</button>
+                <button type="button" class="diacritic-btn">ť</button>
+                <button type="button" class="diacritic-btn">ź</button>
+                <button type="button" class="diacritic-btn">ž</button>
+            </div>
+            <div id="suggestions" class="suggestions-list" style="display: none;"></div>
+
+            <p style="font-size: 16px; font-style: normal; margin-top: 30px; padding: 0;">
+                Source: <a href="https://akusanat.com/verdd/" style="text-decoration: none;">Veʹrdd</a>
+            </p>
+
+            <div id="wordDetails"></div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="mailto:aleksanterinazarenko@outlook.com" style="color: white; text-decoration: none;">&copy; 2024
+            Aleksanteri Nazarenko</a>
+    </footer>
+
+    <style>
+#diacriticButtons {
+    margin-top: 10px;
+}
+
+.diacritic-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 15px;
+}
+
+.diacritic-btn:hover {
+    background-color: #f9f9f9;
+}
+    </style>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const latinJsonURL =
+            'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/myven-lat.json';
+        const cyrillicJsonURL =
+            'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/myven-cyr.json';
+
+        const searchInput = document.getElementById('searchInput');
+        const languageSelector = document.getElementById('languageSelector');
+        const suggestions = document.getElementById('suggestions');
+        const wordDetails = document.getElementById('wordDetails');
+
+        let currentData = [];
+        let selectedSuggestionIndex = -1;
+        let filteredWords = [];
+        let isMouseOverSuggestion = false;
+
+        function showWordDetails(entry) {
+            wordDetails.innerHTML = `<h2>${entry.Word}</h2><p>${entry.Definition}</p>`;
+        }
+
+        function loadDictionary(url) {
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    currentData = data;
+                    suggestions.innerHTML = '';
+
+                    function loadWordFromHash() {
+                        const wordFromHash = decodeURIComponent(location.hash.substring(1));
+                        if (wordFromHash) {
+                            const entry = currentData.find(e => e.Word.toLowerCase() === wordFromHash
+                                .toLowerCase());
+                            if (entry) {
+                                showWordDetails(entry);
+                                searchInput.value = entry.Word;
+                            }
+                        }
+                    }
+
+                    loadWordFromHash();
+                })
+
+                .catch(error => console.error('Error loading the dictionary:', error));
+        }
+
+        function highlightSuggestion(index) {
+            const suggestionItems = Array.from(suggestions.getElementsByClassName('suggestion-item'));
+            suggestionItems.forEach((item, idx) => {
+                item.classList.toggle('highlight', idx === index);
+            });
+        }
+
+        searchInput.addEventListener('input', (event) => {
+            const query = event.target.value.toLowerCase();
+            suggestions.innerHTML = '';
+            selectedSuggestionIndex = -1;
+
+            if (query === "") {
+                wordDetails.innerHTML = '';
+                suggestions.style.display = 'none';
+            } else {
+                filteredWords = currentData
+                    .filter(entry => entry.Word.toLowerCase().includes(query))
+                    .sort((a, b) => {
+                        const aStartsWith = a.Word.toLowerCase().startsWith(query);
+                        const bStartsWith = b.Word.toLowerCase().startsWith(query);
+
+                        if (aStartsWith && !bStartsWith) return -1;
+                        if (!aStartsWith && bStartsWith) return 1;
+
+                        return a.Word.length - b.Word.length;
+                    });
+
+                if (filteredWords.length > 0) {
+                    filteredWords.forEach((entry, index) => {
+                        const suggestionItem = document.createElement('div');
+                        suggestionItem.className = 'suggestion-item';
+                        suggestionItem.textContent = entry.Word;
+
+                        suggestionItem.onclick = () => {
+                            selectedSuggestionIndex = index;
+                            highlightSuggestion(selectedSuggestionIndex);
+                            searchInput.value = entry.Word;
+                            showWordDetails(entry);
+                            suggestions.style.display = 'none';
+
+                            location.hash = encodeURIComponent(entry.Word);
+                        };
+
+                        function loadWordFromHash() {
+                            const wordFromHash = decodeURIComponent(location.hash.substring(1));
+                            if (wordFromHash) {
+                                const entry = currentData.find(e => e.Word.toLowerCase() ===
+                                    wordFromHash.toLowerCase());
+                                if (entry) {
+                                    showWordDetails(entry);
+                                    searchInput.value = entry.Word;
+                                }
+                            }
+                        }
+
+                        suggestionItem.onmouseover = () => {
+                            isMouseOverSuggestion = true;
+                            selectedSuggestionIndex = index;
+                            highlightSuggestion(selectedSuggestionIndex);
+                        };
+
+                        suggestionItem.onmouseout = () => {
+                            isMouseOverSuggestion = false;
+                        };
+
+                        suggestions.appendChild(suggestionItem);
+                    });
+                    suggestions.style.display = 'block';
+                } else {
+                    suggestions.style.display = 'none';
+                }
+            }
+        });
+
+        searchInput.addEventListener('keydown', (event) => {
+            const suggestionItems = Array.from(suggestions.getElementsByClassName('suggestion-item'));
+
+            if (!isMouseOverSuggestion) {
+                if (event.key === 'ArrowDown') {
+                    if (selectedSuggestionIndex < suggestionItems.length - 1) {
+                        selectedSuggestionIndex++;
+                        highlightSuggestion(selectedSuggestionIndex);
+                        suggestionItems[selectedSuggestionIndex].scrollIntoView({
+                            block: 'nearest'
+                        });
+                    }
+                } else if (event.key === 'ArrowUp') {
+                    if (selectedSuggestionIndex > 0) {
+                        selectedSuggestionIndex--;
+                        highlightSuggestion(selectedSuggestionIndex);
+                        suggestionItems[selectedSuggestionIndex].scrollIntoView({
+                            block: 'nearest'
+                        });
+                    }
+                } else if (event.key === 'Enter') {
+                    if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestionItems
+                        .length) {
+                        const selectedWord = filteredWords[selectedSuggestionIndex];
+                        searchInput.value = selectedWord.Word;
+                        showWordDetails(selectedWord);
+                        suggestions.style.display = 'none';
+                    }
+                }
+            }
+        });
+
+        languageSelector.addEventListener('change', (event) => {
+            const selectedLanguage = event.target.value;
+            const url = selectedLanguage === 'cyrillic' ? cyrillicJsonURL : latinJsonURL;
+            loadDictionary(url);
+        });
+
+        loadDictionary(latinJsonURL);
+    });
+
+    document.querySelectorAll('.diacritic-btn').forEach(button => {
+        button.addEventListener('click', function () {
+            const searchInput = document.getElementById('searchInput');
+
+            searchInput.value += this.textContent;
+
+            const event = new Event('input');
+            searchInput.dispatchEvent(event);
+
+            searchInput.focus();
+        });
+    });
+</script>
+
+</body>
+
+</html>
+
+<script>
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+        window.location.href = 'english-erzya-dictionary-mobile.html';
+    }
+</script>

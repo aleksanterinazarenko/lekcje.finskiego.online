@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explanatory Dictionary</title>
+    <link rel="stylesheet" href="style-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <select id="nav-select" class="nav-select">
+            <option value="" selected disabled hidden>Menu</option>
+            <option value="index-mobile.html">Main Page</option>
+            <option value="dictionaries-mobile.html">Dictionaries</option>
+            <option value="grammar-mobile.html">Grammar</option>
+            <option value="transliteration-tool-mobile.html">Transliteration tool</option>
+            <option value="about-the-spelling-mobile.html">About the spelling</option>
+            <option value="sources-mobile.html">Sources</option>
+            <option value="other-mobile.html">Other</option>
+            <option value="mailto:aleksanterinazarenko@outlook.com">Contact</option>
+        </select>
+    </header>
+
+    <main>
+        <h1><a href="/learnerzya/index.html">Learn Erzya</a></h1>
+        <h2 style="margin: 0 0 30px 0;">Explanatory dictionary</h2>
+
+        <div class="container">
+            <select id="languageSelector">
+                <option value="latin">Latin</option>
+                <option value="cyrillic">Cyrillic</option>
+            </select>
+            <input id="searchInput" placeholder="Search for a word ..." type="text" autocomplete="off" />
+            <div id="suggestions" class="suggestions-list" style="display: none;"></div>
+
+            <div id="wordDetails" class="word-details"></div>
+        </div>
+
+    </main>
+    </main>
+
+    <style>
+        .nav-select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .nav-select option {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .suggestions-list {
+            border-top: none;
+            padding: 0 20px;
+            margin-bottom: 20px;
+            overflow-y: auto;
+            background-color: #fff;
+        }
+
+        .suggestion-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .suggestion-item.highlight {
+            background-color: #f0f0f0;
+        }
+
+        .word-details {
+            font-size: 17px;
+            padding: 0 10px;
+        }
+
+        #wordDetails,
+        #wordDetails p,
+        #wordDetails h2 {
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        .entry {
+            color: #333;
+            font-size: 17px;
+            font-style: normal;
+            line-height: 1.5;
+            padding: 10px 20px;
+            margin: 0;
+            text-align: left;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const latinJsonURL =
+                'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/explanatory-myv-lat.json';
+            const cyrillicJsonURL =
+                'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/explanatory-myv-cyr.json';
+
+            const searchInput = document.getElementById('searchInput');
+            const languageSelector = document.getElementById('languageSelector');
+            const suggestions = document.getElementById('suggestions');
+            const wordDetails = document.getElementById('wordDetails');
+
+            let currentData = [];
+            let selectedSuggestionIndex = -1;
+            let filteredWords = [];
+            let isMouseOverSuggestion = false;
+
+            function showWordDetails(entry) {
+                const categoryDisplay = entry.Category ?
+                    `<span style="font-weight: normal;">${entry.Category}</span>` : '';
+                wordDetails.innerHTML =
+                    `<p style="margin-bottom: 20px; color: #B22222;">${categoryDisplay}</p><p>${entry.Definition}</p>`;
+
+                wordDetails.style.display = 'block';
+                suggestions.style.display = 'none';
+            }
+
+            function loadDictionary(url) {
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        currentData = [];
+                        let lastEntry = null;
+
+                        data.forEach(entry => {
+                            if (entry.Word) {
+
+                                if (lastEntry && lastEntry.Definition) {
+                                    currentData.push(lastEntry);
+                                }
+
+                                lastEntry = {
+                                    Word: entry.Word,
+                                    Definition: entry.Definition,
+                                    Category: entry.Category
+                                };
+                            } else if (lastEntry) {
+                                if (entry.Definition) {
+                                    lastEntry.Definition +=
+                                        `<div class="entry">${entry.Definition}</div>`;
+                                }
+                            }
+                        });
+
+                        if (lastEntry) {
+                            currentData.push(lastEntry);
+                        }
+
+                        suggestions.innerHTML = '';
+                    })
+                    .catch(error => console.error('Error loading the dictionary:', error));
+            }
+
+            function highlightSuggestion(index) {
+                const suggestionItems = Array.from(suggestions.getElementsByClassName('suggestion-item'));
+                suggestionItems.forEach((item, idx) => {
+                    item.classList.toggle('highlight', idx === index);
+                });
+            }
+
+            searchInput.addEventListener('input', (event) => {
+                const query = event.target.value.toLowerCase().trim();
+                suggestions.innerHTML = '';
+                selectedSuggestionIndex = -1;
+
+                if (query === "") {
+                    wordDetails.innerHTML = '';
+                    suggestions.style.display = 'none';
+                } else {
+                    filteredWords = currentData
+                        .filter(entry => entry.Word.toLowerCase().includes(query))
+                        .sort((a, b) => {
+                            const aStartsWith = a.Word.toLowerCase().startsWith(query);
+                            const bStartsWith = b.Word.toLowerCase().startsWith(query);
+                            if (aStartsWith && !bStartsWith) return -1;
+                            if (!aStartsWith && bStartsWith) return 1;
+                            return a.Word.length - b.Word.length;
+                        });
+
+                    if (filteredWords.length > 0) {
+                        filteredWords.forEach((entry, index) => {
+                            const suggestionItem = document.createElement('div');
+                            suggestionItem.className = 'suggestion-item';
+                            suggestionItem.textContent = entry.Word;
+
+                            suggestionItem.onclick = () => {
+                                selectedSuggestionIndex = index;
+                                highlightSuggestion(selectedSuggestionIndex);
+                                searchInput.value = entry.Word;
+                                showWordDetails(entry);
+                            };
+
+                            suggestionItem.onmouseover = () => {
+                                isMouseOverSuggestion = true;
+                                selectedSuggestionIndex = index;
+                                highlightSuggestion(selectedSuggestionIndex);
+                            };
+
+                            suggestionItem.onmouseout = () => {
+                                isMouseOverSuggestion = false;
+                            };
+
+                            suggestions.appendChild(suggestionItem);
+                        });
+
+                        suggestions.style.display = 'block';
+                        wordDetails.style.display = 'none';
+                    } else {
+                        suggestions.style.display = 'none';
+                    }
+                }
+            });
+
+            searchInput.addEventListener('keydown', (event) => {
+                const suggestionItems = Array.from(suggestions.getElementsByClassName(
+                    'suggestion-item'));
+
+                if (!isMouseOverSuggestion) {
+                    if (event.key === 'ArrowDown') {
+                        if (selectedSuggestionIndex < suggestionItems.length - 1) {
+                            selectedSuggestionIndex++;
+                            highlightSuggestion(selectedSuggestionIndex);
+                            suggestionItems[selectedSuggestionIndex].scrollIntoView({
+                                block: 'nearest'
+                            });
+                        }
+                    } else if (event.key === 'ArrowUp') {
+                        if (selectedSuggestionIndex > 0) {
+                            selectedSuggestionIndex--;
+                            highlightSuggestion(selectedSuggestionIndex);
+                            suggestionItems[selectedSuggestionIndex].scrollIntoView({
+                                block: 'nearest'
+                            });
+                        }
+                    } else if (event.key === 'Enter') {
+                        if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestionItems
+                            .length) {
+                            const selectedWord = filteredWords[selectedSuggestionIndex];
+                            searchInput.value = selectedWord.Word;
+                            showWordDetails(selectedWord);
+                        }
+                    }
+                }
+            });
+
+            languageSelector.addEventListener('change', (event) => {
+                const selectedLanguage = event.target.value;
+                const url = selectedLanguage === 'cyrillic' ? cyrillicJsonURL : latinJsonURL;
+                loadDictionary(url);
+            });
+
+            loadDictionary(latinJsonURL);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var navSelect = document.getElementById('nav-select');
+
+            navSelect.addEventListener('change', function () {
+                window.location.href = this.value;
+            });
+        });
+    </script>
+
+</body>
+
+</html>

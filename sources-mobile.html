@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources</title>
+    <link rel="stylesheet" href="style-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <select id="nav-select" class="nav-select">
+            <option value="" selected disabled hidden>Menu</option>
+            <option value="index-mobile.html">Main Page</option>
+            <option value="dictionaries-mobile.html">Dictionaries</option>
+            <option value="grammar-mobile.html">Grammar</option>
+            <option value="transliteration-tool-mobile.html">Transliteration tool</option>
+            <option value="about-the-spelling-mobile.html">About the spelling</option>
+            <option value="sources-mobile.html">Sources</option>
+            <option value="other-mobile.html">Other</option>
+            <option value="mailto:aleksanterinazarenko@outlook.com">Contact</option>
+        </select>
+    </header>
+
+    <main>
+        <h1><a href="/learnerzya/index.html">Learn Erzya</a></h1>
+        <h2 style="margin: 0 0 30px 0;">Sources</h2>
+
+        <div class="container">
+            <p style="text-align: justify;"><a href="https://akusanat.com/verdd/">➢&ensp;Veʹrdd</a>, an open-source
+                dictionary editing framework with the focus on low-resourced and endangered
+                languages.<br><br>➢&ensp;Ksenija Djordjevic Leonard, Jean-Leo Leonard. <a
+                    href="https://books.google.pl/books/about/Parlons_mordve.html?id=UTdXBLgYI_gC&amp;redir_esc=y">Parlons
+                    mordve (erzya et mokša)</a>. Harmattan, 2006.<br><br>➢&ensp;Boris Serebrennikov. <a
+                    href="https://books.google.pl/books/about/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE.html?id=Be8VAAAAMAAJ&redir_esc=y">Историческая
+                    морфология мордовских языков</a>. Moscow, 1967.</p>
+        </div>
+    </main>
+
+    <footer>
+        <a href="mailto:aleksanterinazarenko@outlook.com" style="color: white; text-decoration: none;">&copy; 2024
+            Aleksanteri Nazarenko</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navSelect = document.getElementById('nav-select');
+
+            navSelect.addEventListener('change', function () {
+                window.location.href = this.value;
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            function setFooterPosition() {
+                var footer = document.querySelector('footer');
+                var windowHeight = window.innerHeight;
+                var bodyHeight = document.body.offsetHeight;
+
+                footer.style.position = 'fixed';
+                footer.style.bottom = '0';
+                footer.style.left = '0';
+                footer.style.width = '100%';
+                footer.style.textAlign = '';
+                footer.style.margin = '0';
+            }
+
+            setFooterPosition();
+            window.addEventListener('resize', setFooterPosition);
+        });
+    </script>
+
+</body>
+
+</html>

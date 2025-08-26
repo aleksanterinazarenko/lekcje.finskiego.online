@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources</title>
+    <link rel="stylesheet" href="style-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <select id="nav-select" class="nav-select">
+            <option value="" selected disabled hidden>Menu</option>
+            <option value="index-mobile.html">Main Page</option>
+            <option value="dictionaries-mobile.html">Dictionaries</option>
+            <option value="grammar-mobile.html">Grammar</option>
+            <option value="transliteration-tool-mobile.html">Transliteration tool</option>
+            <option value="about-the-spelling-mobile.html">About the spelling</option>
+            <option value="sources-mobile.html">Sources</option>
+            <option value="other-mobile.html">Other</option>
+            <option value="mailto:aleksanterinazarenko@outlook.com">Contact</option>
+        </select>
+    </header>
+
+    <main>
+        <h1><a href="/learnerzya/index.html">Learn Erzya</a></h1>
+        <h2 style="margin: 0 0 30px 0;">Other</h2>
+
+        <div class="container">
+            <div class="blog-post">
+                <p style="text-align: left;">Transliteration tool (alternative)</p>
+                <div class="parent-container">
+                    <a href="transliteration-tool-alternative-mobile.html" class="read-more">Go</a>
+                </div>
+            </div>
+
+            <div class="blog-post">
+                <p style="text-align: left;">Interactive maps</p>
+                <div class="parent-container">
+                    <a href="https://aleksanterinazarenko.github.io/interactivemaps/europe.html"
+                        class="read-more">Go</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="mailto:aleksanterinazarenko@outlook.com" style="color: white; text-decoration: none;">&copy; 2024
+            Aleksanteri Nazarenko</a>
+    </footer>
+
+    <style>
+        .container {
+            padding: 0;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 30px;
+            box-sizing: border-box;
+        }
+
+        .container a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .blog-post {
+            border-radius: 10px;
+            margin: 20px;
+            margin-top: 30px;
+            color: #333;
+            border: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin: 15px;
+            text-decoration: none;
+            color: #333;
+            border: 1px solid #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .parent-container {
+            text-align: center;
+        }
+    </style>
+
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navSelect = document.getElementById('nav-select');
+
+            navSelect.addEventListener('change', function () {
+                window.location.href = this.value;
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            function setFooterPosition() {
+                var footer = document.querySelector('footer');
+                var windowHeight = window.innerHeight;
+                var bodyHeight = document.body.offsetHeight;
+
+                footer.style.position = 'fixed';
+                footer.style.bottom = '0';
+                footer.style.left = '0';
+                footer.style.width = '100%';
+                footer.style.textAlign = '';
+                footer.style.margin = '0';
+            }
+
+            setFooterPosition();
+            window.addEventListener('resize', setFooterPosition);
+        });
+    </script>
+
+</body>
+
+</html>

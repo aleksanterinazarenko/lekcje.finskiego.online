@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="Erzya language, ersän kieli, эрзянский язык, эрзянь кель, dictionary, sanakirja, словарь, валкс">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English-Erzya dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 768px)">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="dictionaries.html">Dictionaries</a></li>
+                <li><a href="grammar.html">Grammar</a></li>
+                <li><a href="transliteration-tool.html">Transliteration tool</a></li>
+                <li><a href="about-the-spelling.html">About the spelling</a></li>
+                <li><a href="sources.html">Sources</a></li>
+                <li><a href="other.html">Other</a></li>
+                <li><a href="mailto:aleksanterinazarenko@outlook.com">Contact</a></li>
+                <li>
+                    <a href="/learnerzya/fi/english-erzya-dictionary.html">
+                        <img src="fi.svg" style="width: 20px; height: auto;">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><a href="/learnerzya/index.html">Learn Erzya</a></h1>
+
+        <div class="container">
+            <h2>English-Erzya Dictionary</h2>
+        </div>
+        <div class="dictionary">
+            <select id="languageSelector">
+                <option value="latin">Latin</option>
+                <option value="cyrillic">Cyrillic</option>
+            </select>
+            <input id="searchInput" placeholder="Search for a word ..." type="text" autocomplete="off" />
+            <div id="suggestions" class="suggestions-list" style="display: none;"></div>
+
+            <p style="font-size: 16px; font-style: normal; margin-top: 30px; padding: 0;">
+                Source: <a href="https://akusanat.com/verdd/" style="text-decoration: none;">Veʹrdd</a>
+            </p>
+
+            <div id="wordDetails"></div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="mailto:aleksanterinazarenko@outlook.com" style="color: white; text-decoration: none;">&copy; 2024
+            Aleksanteri Nazarenko</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<style>
+    .category {
+        font-style: italic;
+        font-weight: normal;
+        color: green;
+    }
+
+    .examples,
+    .quotes {
+        margin: 0 auto 30px;
+        padding: 10px 50px;
+        margin-top: -30px;
+    }
+
+    .example,
+    .quote {
+        font-size: 16px;
+        font-style: italic;
+        line-height: 1.5;
+    }
+
+    .quote {
+        display: grid;
+    }
+
+    .quote:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .example em,
+    .quote em {
+        color: #B22222;
+    }
+
+    .source {
+        text-align: right;
+        font-style: italic;
+        color: grey
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const latinJsonURL =
+            'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/enmyv-lat.json';
+        const cyrillicJsonURL =
+            'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/enmyv-cyr-beta.json';
+
+        const searchInput = document.getElementById('searchInput');
+        const languageSelector = document.getElementById('languageSelector');
+        const suggestions = document.getElementById('suggestions');
+        const wordDetails = document.getElementById('wordDetails');
+
+        let currentData = [];
+        let selectedSuggestionIndex = -1;
+        let filteredWords = [];
+        let isMouseOverSuggestion = false;
+
+        function showWordDetails(entry) {
+            const categoryDisplay = entry.Category && entry.Category.trim() !== "" ?
+                `<span class="category">&ensp;${entry.Category}</span>` :
+                '';
+
+            let examplesHtml = "";
+
+            if (entry["ExampleW"] && entry["ExampleD"] &&
+                entry["ExampleW"].length > 0 && entry["ExampleD"].length > 0) {
+
+                for (let i = 0; i < entry["ExampleW"].length; i++) {
+                    const ExampleW = entry["ExampleW"][i];
+                    const ExampleD = entry["ExampleD"][i];
+
+                    if (ExampleW && ExampleD) {
+                        examplesHtml += `<div class='example'><em>${ExampleW}</em>&ensp;${ExampleD}</div>`;
+                    }
+                }
+            }
+
+            let quotesHtml = "";
+
+            if (entry["QuoteW"] && entry["QuoteD"] && entry["QuoteS"] &&
+                entry["QuoteW"].length > 0 && entry["QuoteD"].length > 0) {
+
+                for (let i = 0; i < entry["QuoteW"].length; i++) {
+                    const QuoteW = entry["QuoteW"][i];
+                    const QuoteD = entry["QuoteD"][i];
+                    const QuoteS = entry["QuoteS"][i];
+
+                    if (QuoteW && QuoteD) {
+                        quotesHtml += `
+                <div class='quote'>
+                    <em>${QuoteW}</em>${QuoteD}
+                    <div class='source'>
+                    ${QuoteS ? `<span style="font-style: normal">(</span>${QuoteS}<span style="font-style: normal">)</span>` : ''}
+                    </div>
+                </div>`;
+                    }
+                }
+            }
+
+            wordDetails.innerHTML = `
+    <h2>${entry.Word}${categoryDisplay}</h2>
+    <p>${entry.Definition}</p>
+    ${examplesHtml ? "<div class='examples'>" + examplesHtml + "</div>" : ""}
+    ${quotesHtml ? "<div class='quotes'>" + quotesHtml + "</div>" : ""}
+`;
+        }
+
+        function loadDictionary(url) {
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    currentData = data;
+                    suggestions.innerHTML = '';
+                })
+                .catch(error => console.error('Error loading the dictionary:', error));
+        }
+
+        function highlightSuggestion(index) {
+            const suggestionItems = Array.from(suggestions.getElementsByClassName('suggestion-item'));
+            suggestionItems.forEach((item, idx) => {
+                item.classList.toggle('highlight', idx === index);
+            });
+        }
+
+        searchInput.addEventListener('input', (event) => {
+            const query = event.target.value.toLowerCase();
+            suggestions.innerHTML = '';
+            selectedSuggestionIndex = -1;
+
+            if (query === "") {
+                wordDetails.innerHTML = '';
+                suggestions.style.display = 'none';
+            } else {
+                filteredWords = currentData
+                    .filter(entry => entry.Word.toLowerCase().includes(query))
+                    .sort((a, b) => {
+                        const aStartsWith = a.Word.toLowerCase().startsWith(query);
+                        const bStartsWith = b.Word.toLowerCase().startsWith(query);
+
+                        if (aStartsWith && !bStartsWith) return -1;
+                        if (!aStartsWith && bStartsWith) return 1;
+
+                        return a.Word.length - b.Word.length;
+                    });
+
+                if (filteredWords.length > 0) {
+                    filteredWords.forEach((entry, index) => {
+                        const suggestionItem = document.createElement('div');
+                        suggestionItem.className = 'suggestion-item';
+                        suggestionItem.textContent = entry.Word;
+
+                        suggestionItem.onclick = () => {
+                            selectedSuggestionIndex = index;
+                            highlightSuggestion(selectedSuggestionIndex);
+                            searchInput.value = entry.Word;
+                            showWordDetails(entry);
+                            suggestions.style.display = 'none';
+                        };
+
+                        suggestionItem.onmouseover = () => {
+                            isMouseOverSuggestion = true;
+                            selectedSuggestionIndex = index;
+                            highlightSuggestion(selectedSuggestionIndex);
+                        };
+
+                        suggestionItem.onmouseout = () => {
+                            isMouseOverSuggestion = false;
+                        };
+
+                        suggestions.appendChild(suggestionItem);
+                    });
+                    suggestions.style.display = 'block';
+                } else {
+                    suggestions.style.display = 'none';
+                }
+            }
+        });
+
+        searchInput.addEventListener('keydown', (event) => {
+            const suggestionItems = Array.from(suggestions.getElementsByClassName('suggestion-item'));
+
+            if (!isMouseOverSuggestion) {
+                if (event.key === 'ArrowDown') {
+                    if (selectedSuggestionIndex < suggestionItems.length - 1) {
+                        selectedSuggestionIndex++;
+                        highlightSuggestion(selectedSuggestionIndex);
+                        suggestionItems[selectedSuggestionIndex].scrollIntoView({
+                            block: 'nearest'
+                        });
+                    }
+                } else if (event.key === 'ArrowUp') {
+                    if (selectedSuggestionIndex > 0) {
+                        selectedSuggestionIndex--;
+                        highlightSuggestion(selectedSuggestionIndex);
+                        suggestionItems[selectedSuggestionIndex].scrollIntoView({
+                            block: 'nearest'
+                        });
+                    }
+                } else if (event.key === 'Enter') {
+                    if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestionItems
+                        .length) {
+                        const selectedWord = filteredWords[selectedSuggestionIndex];
+                        searchInput.value = selectedWord.Word;
+                        showWordDetails(selectedWord);
+                        suggestions.style.display = 'none';
+                    }
+                }
+            }
+        });
+
+        languageSelector.addEventListener('change', (event) => {
+            const selectedLanguage = event.target.value;
+            const url = selectedLanguage === 'cyrillic' ? cyrillicJsonURL : latinJsonURL;
+            loadDictionary(url);
+        });
+
+        loadDictionary(latinJsonURL);
+    });
+</script>
+
+</body>
+
+</html>
+
+<script>
+    if (window.innerWidth <= 768) {
+        window.location.href = 'english-erzya-dictionary-mobile.html';
+    }
+</script>

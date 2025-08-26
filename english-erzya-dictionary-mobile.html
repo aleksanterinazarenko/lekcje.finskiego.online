@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English-Erzya dictionary</title>
+  <link rel="stylesheet" href="style-mobile.css">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <select id="nav-select" class="nav-select">
+      <option value="" selected disabled hidden>Menu</option>
+      <option value="index-mobile.html">Main Page</option>
+      <option value="dictionaries-mobile.html">Dictionaries</option>
+      <option value="grammar-mobile.html">Grammar</option>
+      <option value="transliteration-tool-mobile.html">Transliteration tool</option>
+      <option value="about-the-spelling-mobile.html">About the spelling</option>
+      <option value="sources-mobile.html">Sources</option>
+      <option value="other-mobile.html">Other</option>
+      <option value="mailto:aleksanterinazarenko@outlook.com">Contact</option>
+    </select>
+  </header>
+
+  <main>
+    <h1><a href="/learnerzya/index.html">Learn Erzya</a></h1>
+    <h2 style="margin: 0 0 30px 0;">English-Erzya dictionary</h2>
+
+    <div class="container">
+      <select id="languageSelector">
+        <option value="latin">Latin</option>
+        <option value="cyrillic">Cyrillic</option>
+      </select>
+      <input id="searchInput" placeholder="Search for a word ..." type="text" />
+      <ul id="dictionaryList"></ul>
+    </div>
+    <p style="font-size: 16px; text-align: center; margin-bottom: 20px;">Source: <a href="https://akusanat.com/verdd/"
+        style="text-decoration: none;">Veʹrdd</a></p>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const latinJsonURL =
+        'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/enmyv-lat.json';
+      const cyrillicJsonURL =
+        'https://raw.githubusercontent.com/aleksanterinazarenko/databases/refs/heads/main/enmyv-cyr.json';
+
+      const dictionaryList = document.getElementById('dictionaryList');
+      const searchInput = document.getElementById('searchInput');
+      const languageSelector = document.getElementById('languageSelector');
+
+      let currentData = [];
+
+      function renderList(words) {
+        dictionaryList.innerHTML = '';
+        words.forEach(entry => {
+          const listItem = document.createElement('li');
+          listItem.className = 'entry';
+          listItem.innerHTML =
+            `<span class="word">${entry.Word}</span>: <span class="definition">${entry.Definition}</span>`;
+          dictionaryList.appendChild(listItem);
+        });
+      }
+
+      function getSimilarityScore(word, query) {
+        let score = 0;
+        for (let i = 0; i < Math.min(word.length, query.length); i++) {
+          if (word[i] === query[i]) {
+            score++;
+          } else {
+            break;
+          }
+        }
+        return score;
+      }
+
+      function loadDictionary(url) {
+        fetch(url)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.json();
+          })
+          .then(data => {
+            currentData = data;
+            dictionaryList.innerHTML = '';
+          })
+          .catch(error => console.error('Error loading the dictionary:', error));
+      }
+
+      searchInput.addEventListener('input', (event) => {
+        const query = event.target.value.toLowerCase();
+
+        if (query === "") {
+          dictionaryList.innerHTML = '';
+        } else {
+          const filteredWords = currentData
+            .filter(entry => entry.Word.toLowerCase().includes(query))
+            .sort((a, b) => {
+              const scoreA = getSimilarityScore(a.Word.toLowerCase(), query);
+              const scoreB = getSimilarityScore(b.Word.toLowerCase(), query);
+              return scoreB - scoreA;
+            });
+          renderList(filteredWords);
+        }
+      });
+
+      languageSelector.addEventListener('change', (event) => {
+        const selectedLanguage = event.target.value;
+        const url = selectedLanguage === 'cyrillic' ? cyrillicJsonURL : latinJsonURL;
+        loadDictionary(url);
+      });
+
+      loadDictionary(latinJsonURL);
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const navLinks = document.querySelectorAll('.nav-list a');
+      const currentPath = window.location.pathname.split("/").pop();
+
+      navLinks.forEach(link => {
+        const linkPath = link.getAttribute('href');
+        if (linkPath === currentPath) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var navSelect = document.getElementById('nav-select');
+
+      navSelect.addEventListener('change', function () {
+        window.location.href = this.value;
+      });
+    });
+  </script>
+
+</body>
+
+</html>

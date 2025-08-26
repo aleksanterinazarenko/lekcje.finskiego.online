@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PT Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PT Sans Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PT Sans Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PT Sans Bold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Sofia Sans", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    background-image: url('rect38.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.nav-list li {
+    position: relative;
+}
+
+nav .nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+    text-align: center;
+    color: #21427a;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #21427a;
+}
+
+h2 {
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+main {
+    padding: 0;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+    margin: 10px auto 3px;
+    padding: 0 50px;
+    font-size: 17px;
+    text-align: left;
+}
+
+p a {
+    color: #21427a;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.container {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container-grammar h2 {
+    font-size: 18px;
+    margin: 30px 0 30px 0;
+}
+
+.dictionary {
+    width: calc(100% - 400px);
+    margin: 50px auto 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#wordDetails {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+#wordDetails:empty {
+    display: none;
+}
+
+.dictionary h2 {
+    color: #B22222;
+    line-height: 1.5;
+    margin: 30px auto 0;
+    padding: 10px 50px;
+    text-align: left;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+}
+
+.dictionary p {
+    color: #333;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 1.5;
+    margin: 0 auto 30px;
+    padding: 10px 50px;
+    text-align: left;
+}
+
+tr {
+    vertical-align: top;
+}
+
+.container-grammar td {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.container-grammar td:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.container-grammar tr:last-child td {
+    border-bottom: none;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: separate;
+}
+
+.table td {
+    padding: 0 30px;
+    vertical-align: top;
+    position: relative;
+}
+
+.table p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.nav-list a.active {
+    text-decoration: underline;
+}
+
+.content-container {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.blog-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.custom-text {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 250px;
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.read-more-dict {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#searchInput {
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.suggestions-list {
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+.highlight {
+    background-color: #f0f0f0;
+}
+
+#dictionaryList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#dictionaryList li {
+    padding: 15px 10px;
+    line-height: 1;
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.word {
+    font-weight: regular;
+    font-size: 17px;
+}
+
+.definition {
+    font-style: italic;
+    font-size: 17px;
+}
+
+#languageSelector {
+    font-family: "Sofia Sans", sans-serif;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border: 1px solid #333;
+}
+
+.translator {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea {
+    font-size: 17px;
+    line-height: 24px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    min-height: 275px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.input-text {
+    font-family: "Sofia Sans", sans-serif;
+}
+
+.output-text {
+    font-family: "Sofia Sans", sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button#copyButton {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: "Sofia Sans", sans-serif;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button#copyButton:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        grid-template-columns: 1fr;
+    }
+}
